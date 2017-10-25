@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+# Abhishek Gupta
+## Assistant Professor
+### 464 Dreese Lab, 2015 Neil Avenue, Columbus, OH 43210
 
 You can use the [editor on GitHub](https://github.com/gupta706/gupta706.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 

@@ -1,4 +1,4 @@
-[Teaching](https://gupta706.github.io/Teaching)
+# [Teaching](https://gupta706.github.io/Teaching) # [Important Links](https://gupta706.github.io/ImportantLinks)
 
 # Abhishek Gupta
 ## Assistant Professor

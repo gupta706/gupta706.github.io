@@ -1,0 +1,20 @@
+# jemdoc: menu{MENU}{home.html}
+# jemdoc: addcss{jemdoc_custom.css}
+= Abhishek Gupta
+
+~~~
+{}{img_left}{https://ece.osu.edu/sites/default/files/styles/osu_profile_crop_large/public/opic/385a1258-2_abhishek_gupta_photobycedricsze.jpg?itok=DWvI0rQO&c=7fa65750057152a305a472c3760869f9}{alt text}{175px}{HEIGHTpx}{IMGLINKTARGET}
+*Assistant Professor*\n
+[https://www.osu.edu/ The Ohio State University]\n
+[https://ece.osu.edu/ Department of Electrical and Computer Engineering]\n
+
+464 Dreese Laboratories\n
+2015 Neil Ave.\n
+Columbus, OH 43210\n
+
+[mailto:gupta.706@buckeyemail.osu.edu gupta.706@osu.edu]\n
+~~~
+
+== Biography
+I am Abhishek Gupta, an assistant professor at Electrical and Computer Engineering at The Ohio State University. I completed my Ph.D. in Aerospace Engineering (2014), MS in Applied Mathematics (2012), and MS in Aerospace Engineering (2011), all from University of Illinois at Urbana-Champaign (UIUC). Before coming to UIUC in 2009, I completed my undergraduate in Aerospace Engineering from Indian Institute of Technology, Bombay, India (2005-09).
+I work on theoretical problems in stochastic control theory, game theory, optimization and information theory, and apply the insights to secure cyberphysical systems and develop market mechanisms for deep renewable integration.

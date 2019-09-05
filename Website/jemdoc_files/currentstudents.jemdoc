@@ -1,0 +1,76 @@
+# jemdoc: menu{MENU}{currentstudents.html}
+# jemdoc: addcss{jemdoc_custom.css}
+= Current Students
+
+
+== PhD Students
+\n
+
+~~~
+{}{img_left}{images/jiachengjohnnytang.JPG}{Jiacheng (Johnny) Tang}{175px}{175px}{IMGLINKTARGET}
+=== Jiacheng (Johnny) Tang 
+[mailto:tang.481@buckeyemail.osu.edu tang.481@buckeyemail.osu.edu]\n
+\n
+*Research interests:* control theory, game theory, optimization, applications in automation
+~~~
+
+
+~~~
+{}{img_left}{images/shipingshao.jpeg}{Shiping Shao}{175px}{175px}{IMGLINKTARGET}
+=== Shiping Shao 
+[mailto:shao.367@buckeyemail.osu.edu shao.367@buckeyemail.osu.edu]\n
+\n
+*Research interests:* transportation, prospect theory and queueing theory
+~~~
+
+~~~
+{}{img_left}{images/jayanth.jpeg}{Jayanth Regatti}{175px}{175px}{IMGLINKTARGET}
+=== Jayanth Regatti
+[mailto:regatti.1@buckeyemail.osu.edu regatti.1@buckeyemail.osu.edu]\n
+\n
+*Research interests:* machine learning, reinforcement learning
+~~~
+
+~~~
+{}{img_left}{images/yuntiandeng.jpg}{Yuntian Deng}{175px}{175px}{IMGLINKTARGET}
+=== Yun Tian Deng
+[mailto:deng.556@buckeyemail.osu.edu deng.556@buckeyemail.osu.edu]\n
+\n
+*Research interests:* transportation network, communication network, game theory
+~~~
+
+== MS Students
+\n
+
+
+# 	~~~
+#	{}{img_left}{images/akshranarasimhanRamakrishnan.jpg}{Akshra Narasimhan Ramakrishnan}{175px}{175px}{IMGLINKTARGET}
+#	=== Akshra Narasimhan Ramakrishnan
+#	[mailto:narasimhanramakrishnan.1@osu.edu narasimhanramakrishnan.1@buckeyemail.osu.edu]\n
+#	\n
+#	*Research interests:* reinforcement learning, computer vision, image processing
+#	~~~
+
+#	~~~
+#	{}{img_left}{images/manishkumar.jpg}{Manish Kumar}{175px}{175px}{IMGLINKTARGET}
+#	=== Manish Kumar
+#	[mailto:kumar.781@buckeyemail.osu.edu kumar.781@buckeyemail.osu.edu]\n
+#	\n
+#	*Research interests:* reinforcement learning, machine learning, renewable energy
+#	~~~
+
+#	~~~
+#	{}{img_left}{images/pratikkarkhanis.jpg}{Pratik Karkhanis}{175px}{175px}{IMGLINKTARGET}
+#	=== Pratik Karkhanis
+#	[mailto:karkhanis.6@buckeyemail.osu.edu karkhanis.6@buckeyemail.osu.edu]\n
+#	\n
+#	*Research interests:* reinforcement learning for connected autonomous driving, cooperative control, intelligent transportation, machine learning
+#	~~~
+
+#	~~~
+#	{}{img_left}{images/sakshisingh.jpeg}{Sakshi Singh}{175px}{175px}{IMGLINKTARGET}
+#	=== Sakshi Singh
+#	[mailto:singh.1259@buckeyemail.osu.edu singh.1259@buckeyemail.osu.edu]\n
+#	\n
+#	*Research interests:* reinforcement learning, robotics, artificial intelligence
+#	~~~ 

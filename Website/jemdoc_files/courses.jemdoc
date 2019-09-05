@@ -2,27 +2,14 @@
 # jemdoc: addcss{jemdoc_custom.css}
 = Abhishek Gupta - Courses
 
-== Current Courses (Autumn 2019)
-- ECE 5759 Introduction of Static and Dynamic Optimization: [https://www.youtube.com/playlist?list=PL_Nk3YvgORJtxVlFCvs5lCesdcSqI8NV5 Video lectures are available on YouTube.]
-
+== Current Courses (Autumn 2018)
+- ECE 5759 Introduction of Static and Dynamic Optimization: [https://www.youtube.com/watch?v=ZltOFLhuMYo&list=PL_Nk3YvgORJspxPiuXFdinFg29aJ1Q3wK Video lectures are available on YouTube.]
 ~~~
 {}{raw}
 <div class="video">
-<iframe width="560" height="315" src="https://www.youtube.com/playlist?list=PL_Nk3YvgORJtxVlFCvs5lCesdcSqI8NV5" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZltOFLhuMYo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 ~~~
-
-- ECE 3551 Introduction to Feedback Control Systems: [https://www.youtube.com/playlist?list=PL_Nk3YvgORJv1sgMhuKZ-mlcidfLDl4zy Video lectures are available on YouTube.]
-
-~~~
-{}{raw}
-<div class="video">
-<iframe width="560" height="315" src="https://www.youtube.com/playlist?list=PL_Nk3YvgORJv1sgMhuKZ-mlcidfLDl4zy" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-~~~
-
-- 
-
 
 == Previously-Taught Courses
 - Autumn 2015-18 - ECE 5759 Introduction of Static and Dynamic Optimization: [https://www.youtube.com/watch?v=ZltOFLhuMYo&list=PL_Nk3YvgORJspxPiuXFdinFg29aJ1Q3wK Video lectures are available on YouTube.]
@@ -32,7 +19,7 @@
 </div>
 ~~~
 
-- Autumn 2017 - ECE 6194.04 Game Theory and Mechanism Design [https://www.youtube.com/playlist?list=PL_Nk3YvgORJtEJrafhk9tb3E5qQRGHvCK Video lectures are available on YouTube.]
+- Autumn 2017 - ECE 6194.04 Game Theory and Mechanism Design [https://youtu.be/Bsobe-D5jLk Video lectures are available on YouTube.]
 ~~~
 {}{raw}
 <div class="video">

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+cd ..
+python masterjem.py -i images -css jemdoc_custom.css -o jemdoc_files_HTML_files jemdoc_files
+echo "updated!"

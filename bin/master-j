@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-cd ..
+cd ../Website
 python masterjem.py -i images -css jemdoc_custom.css -o jemdoc_files_HTML_files jemdoc_files
-cd jemdoc_files_HTML_files
-cp -r * ..
+cp -r jemdoc_files_HTML_files ..
 echo "Updated! Now you can commit to github (by running auto-git)"

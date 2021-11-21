@@ -1,0 +1,49 @@
+# jemdoc: menu{MENU}{research.html}
+# jemdoc: addcss{jemdoc_custom.css}
+= Theory
+
+== Approximate dynamic programming
+
+== Reinforcement learning
+
+
+== Game theory and mechanism design
+We are developing an understanding of the effect of information on equilibrium values in dynamic games of asymmetric information.
+
+
+== Applied probability theory with application to learning theory
+
+
+
+
+= Applications
+
+
+== Security of cyberphysical systems
+We are exploiting game theoretic methods to compute best decision rules for autonomous control systems under cyber attacks.
+
+
+== Transportation markets
+We are using cooperative game theory to understand equilibrium in the future multimodal transportation markets.
+
+
+== Electricity markets
+We are designing market mechanisms for generators and load serving entities to bid profitably and mitigate risks in markets with deep renewable integration.
+
+~~~
+{}{img_left}{images/electricity_market_dakhil.png}{Electricity Market}{701px}{513px}{IMGLINKTARGET}
+~~~
+
+Renewable energy presents a clean, economic, and environment friendly alternative to traditional sources of energy. It is also thought of as a sustainable source that can solve, or at least hedge against, any possible energy crisis that might happen due to limited fossil fuel reserves. Yet, as much benefits as renewables bring to the world, integrating renewable energy in the existent power grid introduces new challenges to the engineering and operation of the power system. One major issue that requires attention is the need to design a trading institute that can accommodate for the variability and uncertainty of supply associated with renewable energy generation. The current electricity market is designed for supplying the electricity demanded using fossil fuel and nuclear energy based generators. Existing markets can easily absorb renewable generation at small quantities. However, when the random renewable sources provide substantial portion of the demand, then the existing market structure needs to be changed to ensure reliability and smooth operations of the power grid.
+
+Accordingly, the purpose of our research is to design innovative market mechanisms that take into consideration the stochastic nature of renewable generation and build on the current structure of electricity market. Also, these new mechanisms can mitigate the high imbalance costs associated with deeper levels of renewables integration.
+
+We use techniques like stochastic programming and results from auction theory to design such a mechanism, where the generator can compensate any shortfall in generation and still make positive payoffs. In this process, the generator designs an efficient allocation rule that results as a solution to a two-stage stochastic program where the objective is to maximize the social welfare function, which is composed of the sum of buyers’ valuations and the expected cost of compensating shortfall incurred by the generator. It turned out that the optimal contracted amount is a function of the inverse CDF of the renewable energy. We showed that this allocation function along with a Myerson’s payment rule can elicit truthful bidding from buyers.
+
+Currently, we are working on studying the flexibly of generators and learning how to incentivize generators to invest into ramping capacity. This matter has the effect of facilitating the job of the independent system operator who must maintain the stability of the power grid by balancing demand and supply all the time, a task which becomes daunting and expensive with presence of renewable generators and lack of flexibility.
+
+
+== Energy optimization of connected autonomous vehicles
+We are designing reinforcement learning based methods for optimizing fuel consumption of autonomous vehicles. The key idea is to exploit the V2V and V2I information to compute best velocity profile to minimize fuel consumption.
+
+

@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-cd ../Website
-python masterjem.py -i images -css jemdoc_custom.css -o jemdoc_files_HTML_files jemdoc_files
-cd ../..
-cp -rf gupta706.github.io/Website/jemdoc_files_HTML_files gupta706.github.io
-cd gupta706.github.io/bin
-echo "Updated! Now you can commit to github (by running auto-git)"

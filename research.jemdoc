@@ -3,16 +3,27 @@
 = Theory
 
 == Approximate dynamic programming
+Major innovations in IoT allows us to capture rich datasets in real-time decision and control. Currently, most hardwares are running rule based control algorithms using data generated from rich sensors. We are transforming this paradigm by developing fast approximate dynamic programming algorithms for real-time decision making in information rich environments. Towards this end, we have developed rollout algorithms for optimizing fuel efficiency of autonomous vehicles and building energy management.
+
 
 == Reinforcement learning
+In many high dimensional optimal stochatic control problems, even with known models, noise statistics, and cost functions, it is very difficult to compute the value functions due to continuous state and action spaces and state-dependent action sets. We have developed theory of empirical dynamic programming for solving such problems and have developed a general framework for establishing the consistency of the algorithm with increase in sample size and size of the function approximating class. 
+
+More recently, we have derived a sample complexity bound for offline reinforcement learning algorithm with iid data collection process and continuous state and action spaces.  
 
 
-== Game theory and mechanism design
-We are developing an understanding of the effect of information on equilibrium values in dynamic games of asymmetric information.
+== Mechanism Design and Pricing Algorithms
+We are developing auction theory for single and multiple goods that are produced randomly but cannot be stored. Examples of such goods include renewable energy, time (such as idle time on cloud machines), and human attention. We are developing a new theory of menu auction for such settings. We are modeling this as a Stackelberg game between the consumers (followers) and the producers (leaders). We are using this framework to derive the menu of items and the corresponding pricing algorithms.  
 
+== Game theory
+In bimatrix games, a long standing open problem has been to characterize the games that are solvable in polynomial time. It is well-known that rank-0 and rank-1 games are solvable using linear programs, but rank-2 and above games are PPAD complete. That is, there are rank-2+ games that would require exponential (in the size of the game) number of steps to solve. 
+
+We have completely characterized a class of games that are strategically equivalent to rank-0 or rank-1 games, and consequently, we characterized the class of polynomially solvable games. We further proposed the notion of best response bijection and derived an algorithm to compute an approximate Nash equilibrium of general games using linear programs.  
 
 == Applied probability theory with application to learning theory
+Many algorithms used in machine learning and reinforcement learning can be viewed as iterated random operators applied to initial point in certain Polish space. We have developed a unified theoretical framework to characterize the convergence and consistency properties of such algorithms by extending and contributing to the theory of iterated random operator theory. 
 
+In our research, we found that the convergence properties of certain optimization algorithms are derived using divergence functions, not metrics over the underlying spaces. To better understand their convergence properties, we introduced the notion of Wasserstein divergence between measures over Polish spaces. We identified sufficient conditions under which contraction operators under the Wasserstein divergence have a limit. Through this approach, we substantially generalized the convergence properties of optimization algorithms to infinite dimensional settings.
 
 
 
@@ -20,12 +31,13 @@ We are developing an understanding of the effect of information on equilibrium v
 
 
 == Security of cyberphysical systems
-We are exploiting game theoretic methods to compute best decision rules for autonomous control systems under cyber attacks.
+Cyberphysical systems have connected computers controlling physical systems. Examples of such systems include autonomous vehicles, drones, advanced manufacturing systems, etc. These systems acquire a lot of information from surrounding environment, and therefore, they are succeptible to remote attacks. We are using statistical theory of change detection to derive new algorithms for attack detection in cyberphysical systems. Towards this end, we designed a new dynamic watermarking algorithm for finite Markov decision problems to detect cyberattacks.  
 
 
 == Transportation markets
-We are using cooperative game theory to understand equilibrium in the future multimodal transportation markets.
+Transportation markets are experiencing growth through new modes of shared transportation systems, connectivity, and electrification. A key problem with the industry is its fragmentation. My research group is interested in identifying the best business models and pricing mechanisms through which seamless transportation service can be provided to passengers. 
 
+Towards this end, we have proposed new theoretical frameworks to derive fair prices in ridehailing systems and design multimodal transportation systems. We are actively working on scheduling electric vehicle charging process using renewable energy and understanding the pricing algorithms for battery swapping problems.  
 
 == Electricity markets
 We are designing market mechanisms for generators and load serving entities to bid profitably and mitigate risks in markets with deep renewable integration.
@@ -39,8 +51,6 @@ Renewable energy presents a clean, economic, and environment friendly alternativ
 Accordingly, the purpose of our research is to design innovative market mechanisms that take into consideration the stochastic nature of renewable generation and build on the current structure of electricity market. Also, these new mechanisms can mitigate the high imbalance costs associated with deeper levels of renewables integration.
 
 We use techniques like stochastic programming and results from auction theory to design such a mechanism, where the generator can compensate any shortfall in generation and still make positive payoffs. In this process, the generator designs an efficient allocation rule that results as a solution to a two-stage stochastic program where the objective is to maximize the social welfare function, which is composed of the sum of buyers’ valuations and the expected cost of compensating shortfall incurred by the generator. It turned out that the optimal contracted amount is a function of the inverse CDF of the renewable energy. We showed that this allocation function along with a Myerson’s payment rule can elicit truthful bidding from buyers.
-
-Currently, we are working on studying the flexibly of generators and learning how to incentivize generators to invest into ramping capacity. This matter has the effect of facilitating the job of the independent system operator who must maintain the stability of the power grid by balancing demand and supply all the time, a task which becomes daunting and expensive with presence of renewable generators and lack of flexibility.
 
 
 == Energy optimization of connected autonomous vehicles

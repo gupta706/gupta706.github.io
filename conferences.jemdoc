@@ -1,0 +1,159 @@
+# jemdoc: menu{MENU}{publications.html}
+# jemdoc: addcss{jemdoc_custom.css}
+= Publications
+
+== 2023
+: {*Cobalt: Optimizing Mining Rewards in Proof-of-Work Network Games*}
+ Arti Vedula, *Abhishek Gupta*, and Shaileshh Bojja Venkatakrishnan\n
+ /2023 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)/\n
+
+== 2022
+: {*Change Detection of Markov Kernels with Unknown Pre and Post Change Kernel*}
+ Hao Chen, Jiacheng Tang, and *Abhishek Gupta*\n
+ /2022 IEEE 61st Conference on Decision and Control (CDC)/\n
+
+: {*Byzantine Resilience With Reputation Scores*}
+ Jayanth Regatti, Hao Chen, and *Abhishek Gupta*\n
+ /2022 58th Annual Allerton Conference on Communication, Control, and Computing (Allerton)/\n
+
+: {*Interference constrained beam alignment for time-varying channels via kernelized bandits*}
+ Yuntian Deng, Xingyu Zhou, Arnob Ghosh, *Abhishek Gupta*, and Ness B Shroff\n
+ /2022 20th International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks (WiOpt)/\n
+
+: {*Weighted gaussian process bandits for non-stationary environments*}
+ Yuntian Deng, Xingyu Zhou, Baekjin Kim, Ambuj Tewari, *Abhishek Gupta*, and Ness Shroff\n
+ /International Conference on Artificial Intelligence and Statistics/\n
+
+== 2021
+: {*Intelligent Health Monitoring System Hardware Design for Paralleled Devices with Fast dV/dt Output*}
+ Haoyang You, Han Wang, Jayanth Regatti, Jon Hall, Alec Schnabel, Boxue Hu, Julia Zhang, *Abhishek Gupta*, and Jin Wang\n
+ / 2021 IEEE International Electric Machines & Drives Conference (IEMDC)/\n
+
+: {*A Discussion of Artificial Intelligence Applications in SiC MOSFET Device Operation*}
+ Jayanth Regatti, Haoyang You, Han Wang, Jon Hall, Alec Schnabel, Boxue Hu, Julia Zhang, Jin Wang, and *Abhishek Gupta*\n
+ / 2021 IEEE International Electric Machines & Drives Conference (IEMDC)/\n
+
+: {*Two Algorithms for Computing Exact and Approximate Nash Equilibria in Bimatrix Games*}
+ Jianzong Pi, Joseph L. Heyman, and *Abhishek Gupta*\n
+ /International Conference on Decision and Game Theory for Security/\n
+
+== 2019
+: {*An empirical relative value learning algorithm for non-parametric MDPs with continuous state space*}
+ Hiteshi Sharma, Rahul Jain, and *Abhishek Gupta*\n
+ /2019 18th European Control Conference (ECC)/\n
+
+: {*Distributed SGD Generalizes Well Under Asynchrony*}
+ Jayanth Regatti, Gaurav Tendolkar, Yi Zhou, *Abhishek Gupta*, and Yingbin Liang\n
+ /2019 57th Annual Allerton Conference on Communication, Control, and Computing (Allerton)/\n
+
+: {*Traffic-Aware Adaptive Routing for Minimizing Fuel Consumption*}
+ Jayanth Regatti and *Abhishek Gupta*\n
+ /2019 American Control Conference (ACC)/\n
+
+: {*A fast algorithm to reduce 2xn bimatrix games to rank-1 games*}
+ Joseph L. Heyman and *Abhishek Gupta*\n
+ /2019 18th European Control Conference (ECC)/\n
+
+== 2018
+: {*Colonel Blotto Game with Coalition Formation for Sharing Resources*}
+ Joseph L. Heyman and *Abhishek Gupta*\n
+ /International Conference on Decision and Game Theory for Security/\n
+
+: {*Dynamic Economic Dispatch and Price Evolution under Ramping Constraints and Uncertain Demand*}
+ *Abhishek Gupta*, Balsam Dakhil, and Rahul Jain\n
+ /2018 56th Annual Allerton Conference on Communication, Control, and Computing (Allerton)/\n
+
+: {*Communication Link Elimination in Static LQG Teams*}
+ Jiacheng Tang and *Abhishek Gupta*\n
+ /2018 56th Annual Allerton Conference on Communication, Control, and Computing (Allerton)/\n
+
+: {*Selling Renewable Generation with a Penalty for Shortfall*}
+ B. Dakhil and A. {Gupta\n
+ /2018 IEEE Conference on Decision and Control (CDC)/\n
+
+== 2017
+: {*Information structures and values in zero-sum stochastic games*}
+ Ashutosh Nayyar and *Abhishek Gupta*\n
+ /2017 American Control Conference (ACC)/\n
+
+== 2016
+: {*Privacy-aware stochastic control with a ``snoopy'' adversary: A game-theoretic approach*}
+ *Abhishek Gupta*\n
+ /2016 Annual Conference on Information Science and Systems (CISS)/\n
+
+== 2015
+: {*Equilibria in two-stage electricity markets*}
+ *Abhishek Gupta*, Rahul Jain, Kameshwar Poolla, and Pravin Varaiya\n
+ /54th IEEE Conference on Decision and Control (CDC)/\n
+
+: {*An empirical algorithm for relative value iteration for average-cost MDPs*}
+ *Abhishek Gupta*, Rahul Jain, and Peter W Glynn\n
+ /54th IEEE Conference on Decision and Control (CDC)/\n
+
+: {*Scheduling, pricing, and efficiency of non-preemptive flexible loads under direct load control*}
+ *Abhishek Gupta*, Rahul Jain, and Ram Rajagopal\n
+ /53rd Annual Allerton Conference on Communication, Control, and Computing (Allerton)/\n
+
+== 2014
+: {*Dynamic incentive design in multi-stage linear-Gaussian games with asymmetric information: A common information based approach*}
+ *Abhishek Gupta* and Tamer Başar\n
+ /53rd IEEE Conference on Decision and Control (CDC)/\n
+
+: {*A three-Stage Colonel Blotto game: When to provide more information to an adversary*}
+ *Abhishek Gupta*, Tamer Başar, and Galina Schwartz\n
+ /Decision and Game Theory for Security, Lecture Notes in Computer Science edited by R. Poovendran and W. Saad/\n
+
+: {*A three-Stage Colonel Blotto game with applications to cyberphysical security*}
+ *Abhishek Gupta*, Galina Schwartz, Cédric Langbort, Shankar S. Sastry, and Tamer Başar\n
+ /Proc. 2014 American Control Conference (ACC)/\n
+
+: {*On the existence of optimal strategies in multi-agent stochastic teams*}
+ *Abhishek Gupta*, Serdar Yüksel, Cédric Langbort, and Tamer Başar\n
+ /Proc. 2014 American Control Conference (ACC)/\n
+
+: {*On the existence of optimal strategies in a class of dynamic stochastic teams*}
+ *Abhishek Gupta*, Serdar Yüksel, and Tamer Başar\n
+ /Proc. of 53rd IEEE Conference in Decision and Control (CDC)/\n
+
+: {*Dynamic incentive design in multi-stage linear-Gaussian games of asymmetric information: A common information based approach*}
+ *Abhishek Gupta* and Tamer Başar\n
+ /Proc. of 53rd IEEE Conference in Decision and Control (CDC)/\n
+
+== 2012
+: {*A dynamic transmitter-jammer game with asymmetric information*}
+  *Abhishek Gupta*, Ashutosh Nayyar, Cédric Langbort, and Tamer Başar\n
+ /Proc. 51st IEEE Conference on Decision and Control/\n
+
+: {*On myopic strategies in dynamic adversarial team decision problems*}
+ *Abhishek Gupta*, Pulkit Grover, Cédric Langbort, and Tamer Başar\n
+ /46th Annual Conference on Information Sciences and Systems (CISS)/\n
+
+== 2011
+: {*Decentralized Opportunistic Navigation Strategies for Multi-agent Systems in the Presence of an Adversary*}
+ Sourabh Bhattacharya, *Abhishek Gupta*, and Tamer Başar\n
+ /Proc. IFAC World Congress/\n
+
+: {*Decentralized control of multi-agent systems with an adversarial switching topology*}
+ *Abhishek Gupta*, Sourabh Bhattacharya, and Tamer Başar\n
+ /Infotech @ Aerospace 2011/\n
+
+: {*One-stage control over an adversarial channel with finite codelength*}
+  *Abhishek Gupta*, Cédric Langbort, and Tamer Başar\n
+ /Proc. 50th IEEE Conference on Decision and Control/\n
+
+== 2010
+: {*Optimal control in the presence of an intelligent jammer with limited actions*}
+  *Abhishek Gupta*, Cédric Langbort, and Tamer Başar\n
+ /Proc. 49th IEEE Conference on Decision and Control/\n
+
+== Thesis
+: {*Control in the presence of an intelligent jammer with limited actions*}
+ *Abhishek Gupta*\n
+ University of Illinois at Urbana-Champaign\n
+ Illinois, USA\n
+
+: {*Dynamic Sequential Decision Problems with Asymmetric Information: Some Existence Results*}
+ *Abhishek Gupta*\n
+ University of Illinois at Urbana-Champaign\n
+ Illinois, USA\n
+

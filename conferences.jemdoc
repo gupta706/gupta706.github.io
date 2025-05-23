@@ -1,6 +1,6 @@
-# jemdoc: menu{MENU}{publications.html}
+# jemdoc: menu{MENU}{conferences.html}
 # jemdoc: addcss{jemdoc_custom.css}
-= Publications
+= Conference Publications
 
 == 2023
 :{*Maximizing success rate of payment routing using non-stationary bandits*}

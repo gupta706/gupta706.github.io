@@ -2,10 +2,30 @@
 # jemdoc: addcss{jemdoc_custom.css}
 = Publications
 
+== 2025
+:{*Robustness to Modeling Errors in Risk-Sensitive Markov Decision Problems with Markov Risk Measures*} \n
+Shiping Shao and *Abhishek Gupta*\n
+/IEEE Open Journal of Control Systems/\n
+
+:{*Dynamic Watermarking Algorithm for Finite Markov Decision Processes*}
+Jiacheng Tang, Jiguo Song, and *Abhishek Gupta*\n
+/IEEE Open Journal of Control Systems/\n
+
+== 2024
+:{*Model-free change point detection for mixing processes*}
+Hao Chen, *Abhishek Gupta*, Yin Sun, and Ness Shroff\n
+/IEEE Open Journal of Control Systems/\n
+
+:{*Probabilistic contraction analysis of iterated random operators*}
+*Abhishek Gupta*, Rahul Jain, and Peter Glynn\n
+/IEEE Transactions on Automatic Control/\n
+
+
 == 2023
-: {*Probabilistic contraction analysis of iterated random operators*}
- *Abhishek Gupta*, Rahul Jain, and Peter Glynn\n
- /IEEE Transactions on Automatic Control/\n
+
+:{*Discrete-time finite-horizon optimization of singularly perturbed nonlinear control systems with state-action constraints*}
+Jianzong Pi and *Abhishek Gupta*\n
+/IEEE Control Systems Letters/\n
 
 : {*A deep reinforcement learning framework for eco-driving in connected and automated hybrid electric vehicles*}
  Zhaoxuan Zhu, Shobhit Gupta, *Abhishek Gupta*, and Marcello Canova\n
@@ -18,6 +38,10 @@
 : {*Preemptive scheduling of EV charging for providing demand response services*}
  Shiping Shao, Farshad Harirchi, Devang Dave, and *Abhishek Gupta*\n
  /Sustainable Energy, Grids and Networks/\n
+
+:{*Rank reduction in bimatrix games*}
+Joseph L. Heyman and *Abhishek Gupta*\n
+/International Game Theory Review/\n
 
 == 2022
 : {*Nash equilibrium control policy against bus-off attacks in CAN networks*}

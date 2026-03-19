@@ -12,19 +12,19 @@
 2015 Neil Ave.\n
 Columbus, OH 43210\n
 [mailto:gupta.706@osu.edu gupta.706@osu.edu]\n
+[https://gupta706.github.io/Abhishek_Gupta_CV.pdf CV]\n
 ~~~
 
 ~~~
 *Founder and CEO*\n
-[http://ensemblecontrol.com/ Ensemble Control Inc.]\n
+[http://ensemblecontrol.com/ Ensemble Control Inc.] - Ensemble Control provides AI consulting services to high tech companies by designing algorithms that directly impacts their toplines and bottomlines\n
+\n
 [mailto:abhishek@rewardwise.co abhishek@rewardwise.co]\n
 
 *Founder and CEO*\n
 [http://rewardwise.co/ Rewardwise] - We are building a two sided platform where businesses can run their loyalty programs and customers can track their loyalty points. \n
 [mailto:abhishek@rewardwise.co abhishek@rewardwise.co]\n
 
-Also checkout my wife's spiced tea business\n
-[http://chaibag.com/ Chaibag]\n
 ~~~
 
 #~~~
@@ -35,7 +35,8 @@ Also checkout my wife's spiced tea business\n
 #~~~
 
 == Research Interests
-I am interested in the theory and applications of dynamic optimization and reinforcement learning for drug design and understanding biological systems.
+I am interested in the theory and applications of dynamic optimization and reinforcement learning for world model, robotics, and LLMs.
+
 === Theory
 - Dynamic Optimization and Approximate Dynamic Programming
 - Reinforcement Learning

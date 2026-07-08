@@ -163,7 +163,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 2.5rem 0; }
   background: linear-gradient(180deg, var(--bg-alt), var(--bg)); }
 .hero::before { content: ""; position: absolute; top: -140px; right: -120px; width: 460px; height: 460px;
   background: radial-gradient(circle, rgba(186,12,47,.08), transparent 70%); border-radius: 50%; pointer-events: none; }
-.hero-grid { display: grid; grid-template-columns: 1.55fr 1fr; gap: 56px; align-items: center; padding: 72px 0; position: relative; }
+.hero-grid { display: grid; grid-template-columns: 1.55fr 1fr; gap: 56px; align-items: center; padding-top: 72px; padding-bottom: 72px; position: relative; }
 .eyebrow { display: inline-block; font-size: 12.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
   color: var(--accent); background: rgba(186,12,47,.09); padding: 6px 13px; border-radius: 100px; margin-bottom: 18px; }
 .hero h1 { font-size: clamp(2.6rem, 5vw, 3.4rem); margin-bottom: 8px; }
@@ -261,7 +261,10 @@ a.tag:hover { border-color: var(--brand); color: var(--accent); text-decoration:
 .post-meta { color: var(--muted); font-size: 15px; font-family: var(--sans); margin: 10px 0 0; }
 .tag-inline { color: var(--accent); font-weight: 600; margin-right: .55em; }
 .tag-inline:last-child { margin-right: 0; }
-.page-body { padding: 46px 0 72px; }
+/* Only vertical padding here — horizontal padding comes from the .container class
+   on the same element (padding: 0 24px). Using the `padding` shorthand instead
+   would reset left/right to 0 and make the content touch the screen edges. */
+.page-body { padding-top: 46px; padding-bottom: 72px; }
 .prose { max-width: 760px; }
 .prose.wide, .page-body > .prose:only-child.wide { max-width: none; }
 .prose h2 { margin-top: 2.2rem; padding-bottom: .3rem; border-bottom: 1px solid var(--border); }
@@ -370,7 +373,7 @@ a.tag:hover { border-color: var(--brand); color: var(--accent); text-decoration:
   .main-nav { display: none; }
   .menu-btn { display: grid; }
   .site-header.open .mobile-nav { display: flex; }
-  .hero-grid { grid-template-columns: 1fr; gap: 36px; padding: 44px 0; }
+  .hero-grid { grid-template-columns: 1fr; gap: 36px; padding-top: 44px; padding-bottom: 44px; }
   .portrait { order: -1; }
   .portrait img { width: 220px; height: 264px; }
   .grid-2, .grid-3, .people-grid, .projects-grid { grid-template-columns: 1fr; }
@@ -379,6 +382,15 @@ a.tag:hover { border-color: var(--brand); color: var(--accent); text-decoration:
 }
 @media (max-width: 560px) {
   body { font-size: 16px; }
+  /* Keep the header on one line: let the brand shrink (it was flex:none) and
+     truncate its name if needed, so the action buttons never get pushed
+     off-screen and force horizontal scrolling on narrow phones. */
+  .header-inner { gap: 12px; }
+  .brand { flex: 0 1 auto; min-width: 0; }
+  .brand-text { min-width: 0; }
+  .brand-text b { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .brand-text span { display: none; }   /* drop the "· ECE" subtitle on phones */
+  .header-actions { flex: none; }        /* action buttons stay full-size + tappable */
   .news-item { grid-template-columns: 1fr; gap: 2px; }
   .news-date { padding-top: 0; }
   .talk, .post-row { grid-template-columns: 1fr; gap: 6px; }

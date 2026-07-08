@@ -1,0 +1,31 @@
+---
+layout: default
+title: Projects
+description: Research threads and applied projects from Abhishek Gupta's group.
+---
+<div class="page-head">
+  <div class="container">
+    <div class="kicker">Selected projects</div>
+    <h1>Projects</h1>
+    <p class="lede">Research threads and applied projects. Each links to a page you can
+      expand with figures, results, code, and collaborators.</p>
+  </div>
+</div>
+
+<div class="container page-body">
+  <div class="projects-grid">
+    {% assign projs = site.projects | sort: "order" %}
+    {% for pr in projs %}
+    <a class="project-card" href="{{ pr.url | relative_url }}">
+      <div class="project-thumb">
+        {% if pr.image %}<img src="{{ pr.image | relative_url }}" alt="{{ pr.title }}" loading="lazy">{% else %}<span class="ph-mark">{{ pr.title | slice: 0 }}</span>{% endif %}
+      </div>
+      <div class="pc-body">
+        <h3>{{ pr.title }}</h3>
+        <p>{{ pr.summary }}</p>
+        {% if pr.tags %}<div class="pc-tags">{% for tg in pr.tags %}<span>{{ tg }}</span>{% endfor %}</div>{% endif %}
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,151 @@
+# ============================================================================
+#  RESEARCH GROUP
+#  Each person: name, photo (in assets/images/), email, optional links,
+#  position (current job), thesis {title, url}, interests, and extra note.
+#  Delete or add blocks freely. Set `current` to a message when you have none.
+# ============================================================================
+
+current_note: "I am not accepting new students at this time."
+
+current:
+  - name: "Wafeeq Jaleel"
+    photo: "/assets/images/wafeeq.jpeg"
+    email: "jaleel.5@buckeyemail.osu.edu"
+    interests: "Optimization, reinforcement learning"
+
+former_phd:
+  - name: "Hao Chen"
+    photo: "/assets/images/hc.jpeg"
+    email: "chen.6945@buckeyemail.osu.edu"
+    interests: "Optimization, Markov chains, reinforcement learning"
+
+  - name: "Arti Vedula"
+    photo: "/assets/images/arti.jpeg"
+    email: "vedula.9@buckeyemail.osu.edu"
+    interests: "Blockchain, fairness, computer vision, optimization"
+
+  - name: "Jianzong Pi"
+    photo: "/assets/images/pjz.png"
+    email: "pi.35@buckeyemail.osu.edu"
+    thesis:
+      title: "Authentication, System Identification and Optimization of High Dimensional Dynamical Systems"
+      url: "https://www.proquest.com/openview/00e1fc84bc5ff472fd8703688431759a/1?pq-origsite=gscholar&cbl=18750&diss=y"
+    interests: "Reinforcement learning, optimization, information theory, cybersecurity"
+
+  - name: "Jiacheng (Johnny) Tang"
+    photo: "/assets/images/jiachengjohnnytang.jpg"
+    email: "tang.481@buckeyemail.osu.edu"
+    thesis:
+      title: "Cybersecurity for Networked Control System"
+      url: "http://rave.ohiolink.edu/etdc/view?acc_num=osu1649254687505393"
+    interests: "Control theory, game theory, optimization, cybersecurity"
+
+  - name: "Shiping Shao"
+    photo: "/assets/images/shipingshao.jpeg"
+    email: "shao.367@buckeyemail.osu.edu"
+    thesis:
+      title: "Market Design for Next Generation of Shared and Electric Transportation Systems: Modeling, Optimization, and Learning"
+      url: "http://rave.ohiolink.edu/etdc/view?acc_num=osu1669301423117182"
+    interests: "Transportation markets, game theory, reinforcement learning, optimization"
+
+  - name: "Jayanth Regatti"
+    photo: "/assets/images/JR.jpeg"
+    email: "regatti.1@buckeyemail.osu.edu"
+    thesis:
+      title: "Learning at the Edge under Resource Constraints"
+      url: "http://rave.ohiolink.edu/etdc/view?acc_num=osu1672937397443621"
+    interests: "Reinforcement learning, federated learning, learning in adversarial settings"
+
+  - name: "Yuntian Deng"
+    photo: "/assets/images/yuntian.jpeg"
+    email: "deng.556@buckeyemail.osu.edu"
+    thesis:
+      title: "Operation of Multi-modal Transportation Networks: Optimization and Reinforcement Learning"
+      url: "http://rave.ohiolink.edu/etdc/view?acc_num=osu1657501083332872"
+    interests: "Transportation markets, communication networks"
+
+  - name: "Hao Li"
+    photo: "/assets/images/haoli.jpeg"
+    email: "li.6957@buckeyemail.osu.edu"
+    thesis:
+      title: "Decentralized Multi-Agent Collision Avoidance and Reinforcement Learning"
+      url: "http://rave.ohiolink.edu/etdc/view?acc_num=osu1618840664964088"
+    interests: "Robotics, reinforcement learning"
+
+  - name: "Joseph Heyman"
+    photo: "/assets/images/josephheyman.jpg"
+    email: "heyman.14@buckeyemail.osu.edu"
+    thesis:
+      title: "On the Computation of Strategically Equivalent Games"
+      url: "http://rave.ohiolink.edu/etdc/view?acc_num=osu1561984858706805"
+    interests: "Computational game theory, security games, cyber security, secure control systems"
+
+  - name: "Balsam Dakhil"
+    photo: "/assets/images/balsamdakhil.jpeg"
+    email: "dakhil.2@buckeyemail.osu.edu"
+    thesis:
+      title: "Market Mechanisms for the Deep Integration of Renewable Energy"
+      url: "http://rave.ohiolink.edu/etdc/view?acc_num=osu1562316287366083"
+    interests: "Electricity markets, auction theory"
+
+former_ms:
+  - name: "Gaurav Tendolkar"
+    photo: "/assets/images/gaurav.jpeg"
+    email: "grvtendolkar@gmail.com"
+    position: "Senior Data Scientist at Microsoft"
+    links:
+      - { label: "LinkedIn", url: "https://www.linkedin.com/in/gaurav-t-b151881a/" }
+    interests: "Reinforcement learning, autonomous vehicles, machine learning"
+
+  - name: "Zhaoyuan Yang"
+    photo: "/assets/images/zhaoyuanyang.jpg"
+    email: "zhyyang1015@gmail.com"
+    position: "Engineer at GE Global Research"
+    links:
+      - { label: "LinkedIn", url: "https://www.linkedin.com/in/zhyyang/" }
+    thesis:
+      title: "Adversarial Reinforcement Learning for Control System Design: A Deep Reinforcement Learning Approach"
+      url: "https://etd.ohiolink.edu/pg_10?212621478659011::NO:10:P10_ETD_SUBID:164322"
+    interests: "Machine learning, computer vision, optimization, robotics, IoT / cyber-physical systems"
+
+  - name: "Yongfeng Lu"
+    photo: "/assets/images/yongfenglu.jpg"
+    email: "zerolyf1019@gmail.com"
+    position: "Embedded Software Engineer at ASM Pacific Technology"
+    links:
+      - { label: "LinkedIn", url: "https://www.linkedin.com/in/yongfeng-lu-b958b4b3/" }
+    interests: "Embedded-system cybersecurity"
+
+  - name: "Akash Agarwal"
+    photo: "/assets/images/akashagarwal.jpg"
+    email: "akash.agarwal41992@gmail.com"
+    position: "Data Scientist at Kohl's"
+    links:
+      - { label: "LinkedIn", url: "https://www.linkedin.com/in/akashagarwal10/" }
+    thesis:
+      title: "A Study of Communication Link Removal in Static and Dynamic Teams"
+    interests: "Game theory, machine learning, team theory"
+
+former_undergrad:
+  - name: "Emily Reed"
+    photo: "/assets/images/emilyreed.jpg"
+    email: "EmilyRee@usc.edu"
+    position: "Ph.D. candidate at the University of Southern California"
+    links:
+      - { label: "LinkedIn", url: "https://www.linkedin.com/in/emily-a-reed/" }
+    thesis:
+      title: "Improvement of Reliability Indices in a Micro-grid System involving Renewable Generation and Energy Storage"
+      url: "https://kb.osu.edu/bitstream/handle/1811/80468/1/EmilyReed_HonorsResearchThesis_2017Final.pdf"
+    interests: "Cloud computing, robotics, body dynamics, renewable energy integration in microgrids"
+
+  - name: "Meghan Booker"
+    photo: "/assets/images/meghanbooker.jpg"
+    email: "mebooker@princeton.edu"
+    position: "Graduate Student Researcher at Princeton University"
+    links:
+      - { label: "LinkedIn", url: "https://www.linkedin.com/in/meghanbooker/" }
+    thesis:
+      title: "Effects of Hacking an Unmanned Aerial Vehicle Connected to the Cloud"
+      url: "https://kb.osu.edu/handle/1811/84561"
+    interests: "How cyber attacks impact control systems, for future joint cyber-security and control design"
+    extra: "Fellowships: OSU College of Engineering Undergraduate Research Scholarship; Gordon Wu Fellow at Princeton University"

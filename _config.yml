@@ -1,2 +1,73 @@
-theme: jekyll-theme-tactile
-title: Homepage of Abhishek Gupta
+# ============================================================================
+#  SITE CONFIGURATION
+#  Most day-to-day info lives in the _data/ folder — you rarely touch this file.
+#  After changing this file you must restart `jekyll serve` (it is not live-reloaded).
+# ============================================================================
+
+title: "Abhishek Gupta"
+tagline: "Associate Professor of Electrical & Computer Engineering"
+description: >-
+  Abhishek Gupta is an Associate Professor of Electrical & Computer Engineering
+  at The Ohio State University, working on dynamic optimization, reinforcement
+  learning, game theory, and their applications in AI, robotics, energy, and
+  transportation.
+
+# --- Where the site lives -----------------------------------------------------
+# `url` is your GitHub Pages domain. `baseurl` is the sub-path.
+#   * User site  (repo named gupta706.github.io):     baseurl: ""
+#   * Project site (repo named e.g. "osu-site"):       baseurl: "/osu-site"
+# The GitHub Action fills in the correct baseurl automatically at build time,
+# so this value only matters for LOCAL previews.
+url: "https://gupta706.github.io"
+baseurl: ""
+
+author:
+  name: "Abhishek Gupta"
+  email: "gupta.706@osu.edu"
+
+timezone: America/New_York
+future: true   # always publish posts, even if their date is ahead of the build clock
+
+# --- Content collections ------------------------------------------------------
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope: { path: "" }
+    values: { layout: "page" }
+  - scope: { path: "", type: "posts" }
+    values: { layout: "post" }
+  - scope: { path: "", type: "projects" }
+    values: { layout: "project" }
+
+permalink: /blog/:year/:month/:day/:title/
+
+# --- Build settings -----------------------------------------------------------
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+feed:
+  path: /blog/feed.xml
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+  - vendor
+  - .github
+  - .python-version
+  - make-site.sh

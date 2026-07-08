@@ -1,0 +1,113 @@
+# ============================================================================
+#  TEACHING
+#  Grouped by academic year (newest first). For each course you can give:
+#    term, code, title, and either a `playlist` (YouTube playlist ID) OR
+#    a plain `note`. If `playlist` is set, the video embeds automatically.
+#  A whole year can also be just a `note` (e.g. leave of absence).
+#  To find a playlist ID: it's the part after "list=" in the YouTube URL.
+# ============================================================================
+
+- year: "2025–26"
+  courses:
+    - term: "Spring 2026"
+      code: "ECE 6750"
+      title: "Linear Systems Theory"
+      playlist: "PL_Nk3YvgORJuloLk5IbshfV3U5pmgHh7V"
+    - term: "Autumn 2025"
+      code: "ECE 7202"
+      title: "Reinforcement Learning"
+      playlist: "PL_Nk3YvgORJvTclSyu9fjHqlJiqpK-BQI"
+    - term: "Autumn 2025"
+      code: "ECE 5500"
+      title: "Nonlinear and Dynamic Programming"
+      playlist: "PL_Nk3YvgORJtOEAtiDmTS7L_O8jHFv2-8"
+
+- year: "2024–25"
+  courses:
+    - term: "Autumn 2024"
+      code: "ECE 5500"
+      title: "Nonlinear and Dynamic Programming"
+      playlist: "PL_Nk3YvgORJsEly5iMS5549ayn6mkJfDi"
+    - term: "Autumn 2024"
+      code: "ECE 5555"
+      title: "Securing Autonomous Systems"
+      playlist: "PL_Nk3YvgORJvPffL0eK-cLj9TQnkglZxH"
+
+- year: "2023–24"
+  note: "On leave of absence during this academic year."
+
+- year: "2022–23"
+  note: "No teaching this academic year."
+
+- year: "2021–22"
+  courses:
+    - term: "Autumn 2021"
+      code: "ECE 5759"
+      title: "Introduction to Static and Dynamic Optimization"
+      playlist: "PL_Nk3YvgORJvY5VuxyIbzY2-raNvdsJ5M"
+    - term: "Autumn 2021"
+      code: "ECE 5555"
+      title: "Securing Autonomous Systems"
+      playlist: "PL_Nk3YvgORJtMXvdpMD73okhm-MqQHqx0"
+
+- year: "2020–21"
+  courses:
+    - term: "Spring 2021"
+      code: "ECE 3050"
+      title: "Signals and Systems"
+      playlist: "PL_Nk3YvgORJuloGWq7YqhvQ9KV1ltwY8r"
+    - term: "Autumn 2020"
+      code: "ECE 5759"
+      title: "Introduction to Static and Dynamic Optimization"
+      playlist: "PL_Nk3YvgORJtKP6dVihIXePN-MxT-dy_x"
+
+- year: "2019–20"
+  courses:
+    - term: "Spring 2020"
+      code: "ECE 8851"
+      title: "Reinforcement Learning"
+      playlist: "PL_Nk3YvgORJs1tCLQnlnSRsOJArj_cP9u"
+    - term: "Autumn 2019"
+      code: "ECE 3551"
+      title: "Introduction to Feedback Control Systems"
+      playlist: "PL_Nk3YvgORJv1sgMhuKZ-mlcidfLDl4zy"
+    - term: "Autumn 2019"
+      code: "ECE 5759"
+      title: "Introduction to Static and Dynamic Optimization"
+      playlist: "PL_Nk3YvgORJtxVlFCvs5lCesdcSqI8NV5"
+
+- year: "2018–19"
+  courses:
+    - term: "Autumn 2018"
+      code: "ECE 5759"
+      title: "Introduction to Static and Dynamic Optimization"
+      playlist: "PL_Nk3YvgORJspxPiuXFdinFg29aJ1Q3wK"
+
+- year: "2017–18"
+  courses:
+    - term: "Autumn 2017"
+      code: "ECE 5759"
+      title: "Introduction to Static and Dynamic Optimization"
+      playlist: "PL_Nk3YvgORJtKF6B-cRBCKxi9jWgM0pcx"
+    - term: "Autumn 2017"
+      code: "ECE 6194.04"
+      title: "Game Theory and Mechanism Design"
+      playlist: "PL_Nk3YvgORJtEJrafhk9tb3E5qQRGHvCK"
+
+- year: "2016–17"
+  courses:
+    - term: "Spring 2017"
+      code: "ECE 3050"
+      title: "Signals and Systems"
+    - term: "Autumn 2016"
+      code: "ECE 5759"
+      title: "Introduction to Static and Dynamic Optimization"
+
+- year: "2015–16"
+  courses:
+    - term: "Spring 2016"
+      code: "ECE 3551"
+      title: "Feedback Control Systems"
+    - term: "Autumn 2015"
+      code: "ECE 5759"
+      title: "Introduction to Static and Dynamic Optimization"

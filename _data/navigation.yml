@@ -1,0 +1,18 @@
+# Top navigation bar. Reorder / add / remove freely.
+# `url` values are site-relative and get the correct base path automatically.
+- title: Home
+  url: /
+- title: Research
+  url: /research/
+- title: Publications
+  url: /publications/
+- title: Projects
+  url: /projects/
+- title: Presentations
+  url: /presentations/
+- title: Blog
+  url: /blog/
+- title: Teaching
+  url: /teaching/
+- title: Group
+  url: /group/

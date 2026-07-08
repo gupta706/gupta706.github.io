@@ -1,0 +1,80 @@
+# ============================================================================
+#  YOUR PROFILE
+#  Edit these values to update the header, hero, About section, and footer.
+#  (No HTML needed — just change the text after each colon.)
+# ============================================================================
+
+name: "Abhishek Gupta"
+title: "Associate Professor"
+department: "Department of Electrical & Computer Engineering"
+department_url: "https://ece.osu.edu/"
+university: "The Ohio State University"
+university_url: "https://www.osu.edu/"
+
+# Hero photo — put the image file in assets/images/
+photo: "/assets/images/gupta2.png"
+
+# Small pill shown above your name on the home page
+eyebrow: "AI · World Models · Reinforcement Learning"
+
+# Short tagline (used in the sticky header and browser/social meta)
+tagline: "Theory and applications of dynamic optimization and reinforcement learning."
+
+# Research one-liner shown in the home hero
+interests: >-
+  I work on the theory and applications of dynamic optimization and
+  reinforcement learning for world models, robotics, and control.
+
+# --- Contact -----------------------------------------------------------------
+email: "gupta.706@osu.edu"
+office:
+  - "464 Dreese Laboratories"
+  - "2015 Neil Ave."
+  - "Columbus, OH 43210"
+
+# --- Links (leave a value empty "" to hide that button) ----------------------
+cv: "/assets/Abhishek_Gupta_CV.pdf"
+links:
+  scholar: "https://scholar.google.com/citations?user=pha24HQAAAAJ&hl=en"      # e.g. "https://scholar.google.com/citations?user=XXXXXXXX"
+  orcid: "https://orcid.org/0000-0003-1117-325X"        # e.g. "https://orcid.org/0000-0000-0000-0000"
+  linkedin: "https://www.linkedin.com/in/abhishek-gupta-profile/"     # e.g. "https://www.linkedin.com/in/xxxx"
+  github: "https://github.com/gupta706"
+  email_alt: ""    # a secondary email if you want one shown
+
+# --- Home page: which papers to feature (BibTeX keys from your .bib files) ----
+# Leave the list empty to auto-show the 4 most recent instead.
+selected_publications:
+  - shao2025robustness
+  - gupta2024probabilistic
+  - tang2025dynamic
+  - zhu2023deep
+
+# --- Full biography (shown on the home "About" section) ----------------------
+bio: >-
+  Abhishek Gupta is an Associate Professor in the Department of Electrical and
+  Computer Engineering at The Ohio State University. He earned his Ph.D. in
+  Aerospace Engineering (2014), M.S. in Applied Mathematics (2012), and M.S. in
+  Aerospace Engineering (2011) from the University of Illinois at
+  Urbana-Champaign (UIUC), following his undergraduate degree in Aerospace
+  Engineering from the Indian Institute of Technology Bombay (2005-09). His
+  scholarly work spans the frontiers of artificial intelligence, game theory,
+  and dynamic optimization, uniting deep theoretical insight with high-impact
+  applied innovation. He is a co-author on three patent applications at OSU, two
+  of which have been successfully commercialized. In recognition of his
+  foundational contributions to stochastic control, he received the Lumley
+  Research Award in 2019 from the College of Engineering at The Ohio State
+  University.
+
+# --- Entrepreneurship blurb (home page) --------------------------------------
+ventures:
+  - role: "Founder & CEO"
+    name: "Ensemble Control Inc."
+    url: "http://ensemblecontrol.com/"
+    description: >-
+      Building robotics for extreme environments
+  - role: "Founder & CEO"
+    name: "Rewardwise"
+    url: "http://rewardwise.co/"
+    description: >-
+      A two-sided platform where businesses run loyalty programs and customers
+      track their loyalty points. This product is deprecated and the business is shut down. 

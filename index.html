@@ -1,102 +1,129 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<link rel="stylesheet" href="jemdoc_custom.css" type="text/css" />
-<title>Abhishek Gupta</title>
-</head>
-<body>
-<table summary="Table for page layout." id="tlayout">
-<tr valign="top">
-<td id="layout-menu">
-<div class="menu-category">Abhishek Gupta</div>
-<div class="menu-item"><a href="index.html" class="current">Home</a></div>
-<div class="menu-item"><a href="research.html">Research</a></div>
-<div class="menu-item"><a href="courses.html">Courses</a></div>
-<div class="menu-category">Publications</div>
-<div class="menu-item"><a href="publications.html">All&nbsp;Publications</a></div>
-<div class="menu-item"><a href="journals.html">Journals</a></div>
-<div class="menu-item"><a href="conferences.html">Conferences</a></div>
-<div class="menu-category">Students</div>
-<div class="menu-item"><a href="currentstudents.html">Current&nbsp;Students</a></div>
-<div class="menu-item"><a href="formerstudents.html">Former&nbsp;Students</a></div>
-</td>
-<td id="layout-content">
-<div id="toptitle">
-<h1>Abhishek Gupta</h1>
-</div>
-<table class="imgtable"><tr><td>
-<a href="IMGLINKTARGET"><img src="images/gupta2.png" alt="alt text" width="175px" /></a>&nbsp;</td>
-<td align="left"><p><b>Associate Professor</b><br />
-<a href="https://www.osu.edu/">The Ohio State University</a><br />
-<a href="https://ece.osu.edu/">Department of Electrical and Computer Engineering</a><br /></p>
-<p>464 Dreese Laboratories<br />
-2015 Neil Ave.<br />
-Columbus, OH 43210<br />
-<a href="mailto:gupta.706@osu.edu">gupta.706@osu.edu</a><br />
-<a href="https://gupta706.github.io/Abhishek_Gupta_CV.pdf">CV</a><br /></p>
-</td></tr></table>
-<div class="infoblock">
-<div class="blockcontent">
-<p><b>Founder and CEO</b><br />
-<a href="http://ensemblecontrol.com/">Ensemble Control Inc.</a> - Ensemble Control provides AI consulting services to high tech companies by designing algorithms that directly impacts their toplines and bottomlines<br />
-<br />
-<a href="mailto:abhishek@rewardwise.co">abhishek@rewardwise.co</a><br /></p>
-<p><b>Founder and CEO</b><br />
-<a href="http://rewardwise.co/">Rewardwise</a> - We are building a two sided platform where businesses can run their loyalty programs and customers can track their loyalty points. <br />
-<a href="mailto:abhishek@rewardwise.co">abhishek@rewardwise.co</a><br /></p>
-</div></div>
-<h2>Research Interests</h2>
-<p>I am interested in the theory and applications of dynamic optimization and reinforcement learning for world model, robotics, and LLMs.</p>
-<h3>Theory</h3>
-<ul>
-<li><p>Dynamic Optimization and Approximate Dynamic Programming</p>
-</li>
-<li><p>Perturbation Theory for Dynamic Programs</p>
-</li>
-<li><p>Reinforcement Learning</p>
-</li>
-<li><p>Game Theory and Mechanism Design</p>
-</li>
-<li><p>Applied Probability Theory</p>
-</li>
-</ul>
-<h3>Applications</h3>
-<ul>
-<li><p>World Models and Physical AI</p>
-</li>
-<li><p>Security of Cyberphysical Systems</p>
-</li>
-<li><p>Transportation Markets</p>
-</li>
-<li><p>Renewable Integration and Electricity Markets</p>
-</li>
-<li><p>Energy Optimization</p>
-</li>
-</ul>
-<h2>Honors and Awards</h2>
-<ul>
-<li><p>Lumley Research Award 2019</p>
-</li>
-<li><p>Kenneth Lee Herrick Memorial Award 2014</p>
-</li>
-<li><p>Mavis Future Faculty Award 2012</p>
-</li>
-<li><p>Narotam Sekhsaria Excellence in Undergraduate Award 2009</p>
-</li>
-</ul>
-<h2>Biography</h2>
-<p>Abhishek Gupta is an Associate Professor in the Department of Electrical and Computer Engineering at The Ohio State University. He earned his Ph.D. in Aerospace Engineering (2014), M.S. in Applied Mathematics (2012), and M.S. in Aerospace Engineering (2011) from the University of Illinois at Urbana-Champaign (UIUC), following his undergraduate degree in Aerospace Engineering from the Indian Institute of Technology Bombay (2005-09). His scholarly work spans the frontiers of artificial intelligence, game theory, and dynamic optimization, uniting deep theoretical insight with high-impact applied innovation. He is a co-author on three patent applications at OSU, two of which have been successfully commercialized. In recognition of his foundational contributions to stochastic control, he received the Lumley Research Award in 2019 from the College of Engineering at The Ohio State University.</p>
-<div id="footer">
-<div id="footer-text">
-Page generated 2026-03-19 19:23:10 EDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
-</div>
-</div>
-</td>
-</tr>
-</table>
-</body>
-</html>
+---
+layout: default
+title: Home
+description: >-
+  Abhishek Gupta — Associate Professor of Electrical & Computer Engineering at
+  The Ohio State University. Dynamic optimization, reinforcement learning, game
+  theory, and AI.
+---
+{% assign profile = site.data.profile %}
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      {% if profile.eyebrow %}<span class="eyebrow">{{ profile.eyebrow }}</span>{% endif %}
+      <h1>{{ profile.name }}</h1>
+      <div class="role">{{ profile.title }}</div>
+      <div class="affil">{{ profile.department }} · <a href="{{ profile.university_url }}">{{ profile.university }}</a></div>
+      <p class="lede-lg">{{ profile.interests }}</p>
+      <div class="hero-cta">
+        {% if profile.cv != "" %}<a class="btn primary" href="{{ profile.cv | relative_url }}">Download CV</a>{% endif %}
+        <a class="btn ghost" href="{{ '/publications/' | relative_url }}">Publications</a>
+        <a class="btn ghost" href="{{ '/research/' | relative_url }}">Research</a>
+      </div>
+      <div class="hero-social">
+        {% if profile.email %}<a href="mailto:{{ profile.email }}">{{ profile.email }}</a>{% endif %}
+        {% if profile.links.scholar != "" %}<a href="{{ profile.links.scholar }}">Google Scholar</a>{% endif %}
+        {% if profile.links.orcid != "" %}<a href="{{ profile.links.orcid }}">ORCID</a>{% endif %}
+        {% if profile.links.linkedin != "" %}<a href="{{ profile.links.linkedin }}">LinkedIn</a>{% endif %}
+        {% if profile.links.github != "" %}<a href="{{ profile.links.github }}">GitHub</a>{% endif %}
+      </div>
+    </div>
+    <div class="portrait">
+      {% if profile.photo %}<img src="{{ profile.photo | relative_url }}" alt="{{ profile.name }}">{% endif %}
+    </div>
+  </div>
+</section>
+
+{% if site.data.news and site.data.news.size > 0 %}
+<section class="section">
+  <div class="container">
+    <div class="section-head"><div class="kicker">Recent news</div><h2>What&rsquo;s new</h2></div>
+    <div class="news">
+      {% assign items = site.data.news | sort: "date" | reverse %}
+      {% for n in items limit: 5 %}
+      <div class="news-item">
+        <div class="news-date">{{ n.date | date: "%b %Y" }}</div>
+        <div class="news-text">{{ n.text | markdownify }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="section section-tint">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">Research</div>
+      <h2>Research interests</h2>
+      <p class="lede">{{ profile.interests }}</p>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Theory</h3>
+        <div class="taglist">{% for t in site.data.research.theory %}<span class="tag">{{ t }}</span>{% endfor %}</div>
+      </div>
+      <div class="card">
+        <h3>Applications</h3>
+        <div class="taglist">{% for t in site.data.research.applications %}<span class="tag">{{ t }}</span>{% endfor %}</div>
+      </div>
+    </div>
+    <p style="margin-top:26px;margin-bottom:0"><a class="btn ghost" href="{{ '/research/' | relative_url }}">Explore research &rarr;</a></p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head"><div class="kicker">Selected work</div><h2>Selected publications</h2></div>
+    {% assign sel = profile.selected_publications %}
+    {% if sel and sel.size > 0 %}
+      {% for key in sel %}
+        {% assign pub = site.data.publications | where: "id", key | first %}
+        {% if pub %}{% include publication.html pub=pub %}{% endif %}
+      {% endfor %}
+    {% else %}
+      {% for pub in site.data.publications limit: 4 %}{% include publication.html pub=pub %}{% endfor %}
+    {% endif %}
+    <p style="margin-top:28px;margin-bottom:0"><a class="btn primary" href="{{ '/publications/' | relative_url }}">All {{ site.data.publications | size }} publications &rarr;</a></p>
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="container">
+    <div class="grid-2" style="align-items:start;gap:48px">
+      <div>
+        <div class="kicker">About</div>
+        <h2>Biography</h2>
+        <p>{{ profile.bio }}</p>
+        {% if profile.cv != "" %}<p><a class="btn ghost" href="{{ profile.cv | relative_url }}">Full CV</a></p>{% endif %}
+
+        {% if site.data.awards and site.data.awards.size > 0 %}
+        <div class="kicker" style="margin-top:34px">Honors &amp; awards</div>
+        <div class="news">
+          {% for a in site.data.awards %}
+          <div class="news-item">
+            <div class="news-date">{{ a.year }}</div>
+            <div class="news-text"><b style="color:var(--text)">{{ a.title }}</b>{% if a.org %}<br><span style="color:var(--muted);font-size:14px">{{ a.org }}</span>{% endif %}</div>
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+
+      {% if profile.ventures and profile.ventures.size > 0 %}
+      <div>
+        <div class="kicker">Beyond the lab</div>
+        <h2>Ventures</h2>
+        {% for v in profile.ventures %}
+        <div class="card" style="margin-bottom:16px">
+          <h3>{{ v.role }}</h3>
+          <p style="font-weight:700;color:var(--text);margin-bottom:6px;font-size:17px"><a href="{{ v.url }}">{{ v.name }}</a></p>
+          <p style="margin:0;color:var(--muted);font-size:15px">{{ v.description }}</p>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>

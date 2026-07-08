@@ -1,0 +1,75 @@
+# ============================================================================
+#  Build & deploy to GitHub Pages
+#
+#  On every push to `main` this workflow:
+#    1. Regenerates _data/publications.json from your .bib files (Python)
+#    2. Builds the Jekyll site
+#    3. Publishes it to GitHub Pages
+#
+#  So: add a paper to journals.bib / conferences.bib, commit, push — done.
+#
+#  ONE-TIME SETUP on GitHub:  Repo Settings -> Pages -> "Build and deployment"
+#  -> Source: "GitHub Actions".
+# ============================================================================
+name: Build & deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: # lets you trigger a rebuild manually from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never run two deploys at once; let an in-progress one finish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate publications from BibTeX
+        run: python3 scripts/bib2json.py
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: true
+
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

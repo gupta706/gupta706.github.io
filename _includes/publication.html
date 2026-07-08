@@ -1,0 +1,27 @@
+{% assign p = include.pub %}
+<article class="pub" data-type="{{ p.type }}" data-year="{{ p.year }}" data-search="{{ p.title | downcase | escape }} {{ p.authors_plain | downcase | escape }} {{ p.venue | downcase | escape }}">
+  <div class="pub-year">{{ p.year }}</div>
+  <div class="pub-body">
+    <h3 class="pub-title">{{ p.title }}</h3>
+    <p class="pub-authors">
+      {% for a in p.authors %}{% if a.is_me %}<b>{{ a.name }}</b>{% else %}{{ a.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+    </p>
+    <p class="pub-venue">
+      {% if p.venue %}<em>{{ p.venue }}</em>{% endif %}{% if p.volume %}, vol. {{ p.volume }}{% endif %}{% if p.number %}, no. {{ p.number }}{% endif %}{% if p.pages %}, pp. {{ p.pages }}{% endif %}{% if p.year %} ({{ p.year }}){% endif %}
+    </p>
+    <div class="pub-meta-row">
+      <span class="pub-badge pub-badge-{{ p.type }}">{{ p.type_label }}</span>
+      {% if p.award %}<span class="pub-badge pub-award">★ {{ p.award }}</span>{% endif %}
+      <span class="pub-links">
+        {% if p.url %}<a class="pill" href="{{ p.url }}" rel="noopener">PDF</a>{% endif %}
+        {% if p.doi %}<a class="pill" href="https://doi.org/{{ p.doi }}" rel="noopener">DOI</a>{% endif %}
+        <a class="pill" href="https://scholar.google.com/scholar?q={{ p.title | url_encode }}" rel="noopener nofollow">Scholar</a>
+        <button type="button" class="pill pill-bib" data-bib="bib-{{ p.id }}" aria-expanded="false">BibTeX</button>
+      </span>
+    </div>
+    <div class="pub-bibtex-wrap" id="bib-{{ p.id }}" hidden>
+      <button type="button" class="pub-bib-copy" data-copy="bibsrc-{{ p.id }}" aria-label="Copy BibTeX to clipboard">Copy</button>
+      <pre class="pub-bibtex" id="bibsrc-{{ p.id }}">{{ p.bibtex }}</pre>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,31 @@
+---
+layout: default
+title: Blog
+description: Notes on research, teaching, and optimization by Abhishek Gupta.
+---
+<div class="page-head">
+  <div class="container">
+    <div class="kicker">Writing</div>
+    <h1>Blog</h1>
+    <p class="lede">Notes on research, teaching, and things I&rsquo;m thinking about.</p>
+  </div>
+</div>
+
+<div class="container page-body">
+  {% if site.posts.size > 0 %}
+  <div class="post-list">
+    {% for post in site.posts %}
+    <div class="post-row">
+      <div class="p-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+      <div>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p class="excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+        {% if post.tags.size > 0 %}<div class="p-tags">{% for t in post.tags %}<span class="tag">#{{ t }}</span>{% endfor %}</div>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p>No posts yet — check back soon.</p>
+  {% endif %}
+</div>

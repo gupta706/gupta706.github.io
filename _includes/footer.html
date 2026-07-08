@@ -1,0 +1,37 @@
+<footer class="site-footer">
+  <div class="footer-strip"></div>
+  <div class="container footer-grid">
+    <div class="footer-about">
+      <div class="footer-name">{{ site.data.profile.name }}</div>
+      <p>{{ site.data.profile.title }}, {{ site.data.profile.department }},
+         {{ site.data.profile.university }}.</p>
+      <p class="footer-office">
+        {% for line in site.data.profile.office %}{{ line }}{% unless forloop.last %} · {% endunless %}{% endfor %}
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <a href="{{ '/research/' | relative_url }}">Research</a>
+      <a href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a href="{{ '/projects/' | relative_url }}">Projects</a>
+      <a href="{{ '/blog/' | relative_url }}">Blog</a>
+      <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Connect</h4>
+      {% if site.data.profile.email %}<a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a>{% endif %}
+      {% if site.data.profile.links.scholar != "" %}<a href="{{ site.data.profile.links.scholar }}">Google Scholar</a>{% endif %}
+      {% if site.data.profile.links.orcid != "" %}<a href="{{ site.data.profile.links.orcid }}">ORCID</a>{% endif %}
+      {% if site.data.profile.links.linkedin != "" %}<a href="{{ site.data.profile.links.linkedin }}">LinkedIn</a>{% endif %}
+      {% if site.data.profile.links.github != "" %}<a href="{{ site.data.profile.links.github }}">GitHub</a>{% endif %}
+      {% if site.data.profile.cv != "" %}<a href="{{ site.data.profile.cv | relative_url }}">Curriculum Vitae</a>{% endif %}
+    </div>
+  </div>
+
+  <div class="container footer-bar">
+    <span>© {{ site.time | date: '%Y' }} {{ site.data.profile.name }}. Built with Jekyll · hosted on GitHub Pages.</span>
+    <span class="footer-buck">The Ohio State University · Go Buckeyes</span>
+  </div>
+</footer>

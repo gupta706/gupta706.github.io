@@ -1,0 +1,21 @@
+# ============================================================================
+#  RECENT NEWS  —  shown on the home page (newest first).
+#  Add a new item by copying a block. `date` controls ordering and display.
+#  You can put links in `text` using Markdown, e.g. [label](https://...).
+#  (These starter items are examples — edit or delete them.)
+# ============================================================================
+
+- date: 2026-07-07
+  text: "Presented our research on perturbation theory of dynamic programs at McGill University"
+
+- date: 2026-01-06
+  text: "New course **ECE 6750 Linear Systems Theory** (Spring 2026) — video lectures are on [YouTube](https://www.youtube.com/playlist?list=PL_Nk3YvgORJuloLk5IbshfV3U5pmgHh7V)."
+
+- date: 2025-08-20
+  text: "Two papers appeared in the *IEEE Open Journal of Control Systems* — on risk-sensitive robustness and dynamic watermarking for MDPs."
+
+- date: 2025-08-15
+  text: "Taught **ECE 7202 Reinforcement Learning** (Autumn 2025); full lecture series available online."
+
+- date: 2024-06-01
+  text: "\"Probabilistic contraction analysis of iterated random operators\" published in *IEEE Transactions on Automatic Control*."

@@ -1,0 +1,33 @@
+---
+layout: default
+title: Presentations
+description: Selected talks and slide decks by Abhishek Gupta.
+---
+<div class="page-head">
+  <div class="container">
+    <div class="kicker">Talks &amp; slides</div>
+    <h1>Presentations</h1>
+    <p class="lede">Selected talks, seminars, and slide decks.</p>
+  </div>
+</div>
+
+<div class="container page-body">
+  {% assign talks = site.data.presentations | sort: "date" | reverse %}
+  {% for t in talks %}
+  <div class="talk">
+    <div>
+      <div class="talk-date">{{ t.date | date: "%b %Y" }}</div>
+      {% if t.type %}<span class="talk-type">{{ t.type }}</span>{% endif %}
+    </div>
+    <div>
+      <h3>{{ t.title }}</h3>
+      {% if t.venue %}<p class="venue">{{ t.venue }}</p>{% endif %}
+      {% if t.description %}<p>{{ t.description }}</p>{% endif %}
+      <div class="pub-links">
+        {% if t.slides %}<a class="pill" href="{{ t.slides | relative_url }}" rel="noopener">Slides</a>{% endif %}
+        {% if t.video %}<a class="pill" href="{{ t.video }}" rel="noopener">Video</a>{% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

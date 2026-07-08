@@ -1,0 +1,38 @@
+---
+layout: default
+title: Group
+description: Current and former students in Abhishek Gupta's research group at Ohio State.
+---
+<div class="page-head">
+  <div class="container">
+    <div class="kicker">People</div>
+    <h1>Research Group</h1>
+    <p class="lede">The students I&rsquo;ve had the privilege to advise and work with.</p>
+  </div>
+</div>
+
+<div class="container page-body">
+  {% assign S = site.data.students %}
+
+  <h2 class="year-title">Current students</h2>
+  {% if S.current and S.current.size > 0 %}
+    {% include people.html list=S.current %}
+  {% else %}
+    <p class="year-note">{{ S.current_note }}</p>
+  {% endif %}
+
+  {% if S.former_phd.size > 0 %}
+    <h2 class="year-title" style="margin-top:46px">Former Ph.D. students</h2>
+    {% include people.html list=S.former_phd %}
+  {% endif %}
+
+  {% if S.former_ms.size > 0 %}
+    <h2 class="year-title" style="margin-top:46px">Former M.S. students</h2>
+    {% include people.html list=S.former_ms %}
+  {% endif %}
+
+  {% if S.former_undergrad.size > 0 %}
+    <h2 class="year-title" style="margin-top:46px">Former undergraduate students</h2>
+    {% include people.html list=S.former_undergrad %}
+  {% endif %}
+</div>

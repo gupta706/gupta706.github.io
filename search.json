@@ -1,0 +1,17 @@
+---
+layout: null
+permalink: /search.json
+---
+[
+{% for p in site.data.publications %}{% unless forloop.first %},{% endunless %}
+{"title": {{ p.title | jsonify }}, "url": "{% if p.url != '' %}{{ p.url }}{% else %}{{ '/publications/' | relative_url }}{% endif %}", "type": "Publication", "meta": {{ p.authors_plain | append: " · " | append: p.venue | jsonify }}, "search": {{ p.title | append: ' ' | append: p.authors_plain | append: ' ' | append: p.venue | downcase | jsonify }}}{% endfor %}
+{% for post in site.posts %},
+{"title": {{ post.title | jsonify }}, "url": "{{ post.url | relative_url }}", "type": "Blog", "meta": {{ post.date | date: "%B %-d, %Y" | jsonify }}, "search": {{ post.title | append: ' ' | append: post.content | strip_html | downcase | truncate: 500 | jsonify }}}{% endfor %}
+{% for pr in site.projects %},
+{"title": {{ pr.title | jsonify }}, "url": "{{ pr.url | relative_url }}", "type": "Project", "meta": {{ pr.summary | jsonify }}, "search": {{ pr.title | append: ' ' | append: pr.summary | downcase | jsonify }}}{% endfor %}
+{% for t in site.data.presentations %},
+{"title": {{ t.title | jsonify }}, "url": "{{ t.slides | default: '/presentations/' | relative_url }}", "type": "Talk", "meta": {{ t.venue | jsonify }}, "search": {{ t.title | append: ' ' | append: t.venue | downcase | jsonify }}}{% endfor %}
+,{"title": "Research", "url": "{{ '/research/' | relative_url }}", "type": "Page", "meta": "Theory and applications", "search": "research theory applications dynamic optimization reinforcement learning game theory security transportation electricity markets"}
+,{"title": "Teaching", "url": "{{ '/teaching/' | relative_url }}", "type": "Page", "meta": "Courses & video lectures", "search": "teaching courses lectures ece optimization control reinforcement learning signals systems"}
+,{"title": "Research Group", "url": "{{ '/group/' | relative_url }}", "type": "Page", "meta": "Current & former students", "search": "group students phd ms undergraduate advisees people"}
+]

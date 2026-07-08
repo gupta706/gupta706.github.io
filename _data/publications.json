@@ -1,0 +1,2161 @@
+[
+  {
+    "id": "tang2025dynamic",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Dynamic Watermarking Algorithm for Finite Markov Decision Processes",
+    "authors": [
+      {
+        "name": "Jiacheng Tang",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Jiguo Song",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Jiacheng Tang, Jiguo Song, Abhishek Gupta",
+    "venue": "IEEE Open Journal of Control Systems",
+    "volume": "4",
+    "pages": "41–52",
+    "year": 2025,
+    "publisher": "IEEE",
+    "bibtex": "@article{tang2025dynamic,\n\ttitle={Dynamic Watermarking Algorithm for Finite Markov Decision Processes},\n\tauthor={Tang, Jiacheng and Song, Jiguo and Gupta, Abhishek},\n\tjournal={IEEE Open Journal of Control Systems},\n\tyear={2025},\n\tvolume = {4},\n\tpages = {41--52},\n\tpublisher={IEEE}\n}"
+  },
+  {
+    "id": "shao2025robustness",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Robustness to Modeling Errors in Risk-Sensitive Markov Decision Problems with Markov Risk Measures",
+    "authors": [
+      {
+        "name": "Shiping Shao",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Shiping Shao, Abhishek Gupta",
+    "venue": "IEEE Open Journal of Control Systems",
+    "volume": "4",
+    "pages": "1–13",
+    "year": 2025,
+    "publisher": "IEEE",
+    "bibtex": "@article{shao2025robustness,\n\ttitle={Robustness to Modeling Errors in Risk-Sensitive Markov Decision Problems with Markov Risk Measures},\n\tauthor={Shao, Shiping and Gupta, Abhishek},\n\tjournal={IEEE Open Journal of Control Systems},\n\tyear={2025},\n\tvolume = {4},\n\tpages = {1--13},\n\tpublisher={IEEE}\n}"
+  },
+  {
+    "id": "chen2024model",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Model-free change point detection for mixing processes",
+    "authors": [
+      {
+        "name": "Hao Chen",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Yin Sun",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Ness Shroff",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Hao Chen, Abhishek Gupta, Yin Sun, Ness Shroff",
+    "venue": "IEEE Open Journal of Control Systems",
+    "volume": "3",
+    "pages": "202–213",
+    "year": 2024,
+    "publisher": "IEEE",
+    "bibtex": "@article{chen2024model,\n\ttitle={Model-free change point detection for mixing processes},\n\tauthor={Chen, Hao and Gupta, Abhishek and Sun, Yin and Shroff, Ness},\n\tjournal={IEEE Open Journal of Control Systems},\n\tyear={2024},\n\tvolume = {3},\n\tpages = {202--213},\n\tpublisher={IEEE}\n}"
+  },
+  {
+    "id": "gupta2024probabilistic",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Probabilistic contraction analysis of iterated random operators",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Rahul Jain",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Peter Glynn",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Rahul Jain, Peter Glynn",
+    "venue": "IEEE Transactions on Automatic Control",
+    "volume": "69",
+    "number": "9",
+    "pages": "5947–5962",
+    "year": 2024,
+    "publisher": "IEEE",
+    "bibtex": "@article{gupta2024probabilistic,\n\ttitle={Probabilistic contraction analysis of iterated random operators},\n\tauthor={Gupta, Abhishek and Jain, Rahul and Glynn, Peter},\n\tjournal={IEEE Transactions on Automatic Control},\n\tvolume={69},\n\tnumber={9},\n\tpages={5947--5962},\n\tyear={2024},\n\tpublisher={IEEE}\n}"
+  },
+  {
+    "id": "zhu2023deep",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "A deep reinforcement learning framework for eco-driving in connected and automated hybrid electric vehicles",
+    "authors": [
+      {
+        "name": "Zhaoxuan Zhu",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Shobhit Gupta",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Marcello Canova",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Zhaoxuan Zhu, Shobhit Gupta, Abhishek Gupta, Marcello Canova",
+    "venue": "IEEE Transactions on Vehicular Technology",
+    "volume": "73",
+    "number": "2",
+    "pages": "1713–1725",
+    "year": 2023,
+    "publisher": "IEEE",
+    "bibtex": "@article{zhu2023deep,\n\ttitle={A deep reinforcement learning framework for eco-driving in connected and automated hybrid electric vehicles},\n\tauthor={Zhu, Zhaoxuan and Gupta, Shobhit and Gupta, Abhishek and Canova, Marcello},\n\tjournal={IEEE Transactions on Vehicular Technology},\n\tvolume={73},\n\tnumber={2},\n\tpages={1713--1725},\n\tyear={2023},\n\tpublisher={IEEE}\n}"
+  },
+  {
+    "id": "vedula2023cobalt",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Cobalt: Optimizing Mining Rewards in Proof-of-Work Network Games",
+    "authors": [
+      {
+        "name": "Arti Vedula",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Shaileshh Bojja Venkatakrishnan",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Arti Vedula, Abhishek Gupta, Shaileshh Bojja Venkatakrishnan",
+    "venue": "2023 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+    "pages": "1–9",
+    "year": 2023,
+    "bibtex": "@inproceedings{vedula2023cobalt,\n  title={Cobalt: Optimizing Mining Rewards in Proof-of-Work Network Games},\n  author={Vedula, Arti and Gupta, Abhishek and Venkatakrishnan, Shaileshh Bojja},\n  booktitle={2023 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)},\n  pages={1--9},\n  year={2023},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "pi2023discrete",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Discrete-time finite-horizon optimization of singularly perturbed nonlinear control systems with state-action constraints",
+    "authors": [
+      {
+        "name": "Jianzong Pi",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Jianzong Pi, Abhishek Gupta",
+    "venue": "IEEE Control Systems Letters",
+    "volume": "7",
+    "pages": "1993–1998",
+    "year": 2023,
+    "publisher": "IEEE",
+    "bibtex": "@article{pi2023discrete,\n\ttitle={Discrete-time finite-horizon optimization of singularly perturbed nonlinear control systems with state-action constraints},\n\tauthor={Pi, Jianzong and Gupta, Abhishek},\n\tjournal={IEEE Control Systems Letters},\n\tvolume={7},\n\tpages={1993--1998},\n\tyear={2023},\n\tpublisher={IEEE}\n}"
+  },
+  {
+    "id": "chaudhary2023maximizing",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Maximizing success rate of payment routing using non-stationary bandits",
+    "authors": [
+      {
+        "name": "Aayush Chaudhary",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhinav Rai",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Aayush Chaudhary, Abhinav Rai, Abhishek Gupta",
+    "venue": "Proceedings of the Third International Conference on AI-ML Systems",
+    "pages": "1–7",
+    "year": 2023,
+    "bibtex": "@inproceedings{chaudhary2023maximizing,\n\ttitle={Maximizing success rate of payment routing using non-stationary bandits},\n\tauthor={Chaudhary, Aayush and Rai, Abhinav and Gupta, Abhishek},\n\tbooktitle={Proceedings of the Third International Conference on AI-ML Systems},\n\tpages={1--7},\n\tyear={2023}\n}"
+  },
+  {
+    "id": "shao2023preemptive",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Preemptive scheduling of EV charging for providing demand response services",
+    "authors": [
+      {
+        "name": "Shiping Shao",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Farshad Harirchi",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Devang Dave",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Shiping Shao, Farshad Harirchi, Devang Dave, Abhishek Gupta",
+    "venue": "Sustainable Energy, Grids and Networks",
+    "volume": "33",
+    "pages": "100986",
+    "year": 2023,
+    "publisher": "Elsevier",
+    "bibtex": "@article{shao2023preemptive,\n  title={Preemptive scheduling of EV charging for providing demand response services},\n  author={Shao, Shiping and Harirchi, Farshad and Dave, Devang and Gupta, Abhishek},\n  journal={Sustainable Energy, Grids and Networks},\n  volume={33},\n  pages={100986},\n  year={2023},\n  publisher={Elsevier}\n}"
+  },
+  {
+    "id": "heyman2023rank",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Rank reduction in bimatrix games",
+    "authors": [
+      {
+        "name": "Joseph L Heyman",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Joseph L Heyman, Abhishek Gupta",
+    "venue": "International Game Theory Review",
+    "volume": "25",
+    "number": "01",
+    "pages": "2250017",
+    "year": 2023,
+    "publisher": "World Scientific",
+    "bibtex": "@article{heyman2023rank,\n\ttitle={Rank reduction in bimatrix games},\n\tauthor={Heyman, Joseph L and Gupta, Abhishek},\n\tjournal={International Game Theory Review},\n\tvolume={25},\n\tnumber={01},\n\tpages={2250017},\n\tyear={2023},\n\tpublisher={World Scientific}\n}"
+  },
+  {
+    "id": "shao2023scheduling",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Scheduling EV charging having demand with different reliability constraints",
+    "authors": [
+      {
+        "name": "Shiping Shao",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Hossein Sartipizadeh",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Shiping Shao, Hossein Sartipizadeh, Abhishek Gupta",
+    "venue": "IEEE Transactions on Intelligent Transportation Systems",
+    "volume": "24",
+    "number": "10",
+    "pages": "11018–11029",
+    "year": 2023,
+    "publisher": "IEEE",
+    "bibtex": "@article{shao2023scheduling,\n\ttitle={Scheduling EV charging having demand with different reliability constraints},\n\tauthor={Shao, Shiping and Sartipizadeh, Hossein and Gupta, Abhishek},\n\tjournal={IEEE Transactions on Intelligent Transportation Systems},\n\tvolume={24},\n\tnumber={10},\n\tpages={11018--11029},\n\tyear={2023},\n\tpublisher={IEEE}\n}"
+  },
+  {
+    "id": "gupta2022computationally",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "A Computationally Efficient Algorithm for Perturbed Dynamic Programs (A-PDP)",
+    "authors": [
+      {
+        "name": "Shobhit Gupta",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Stefano D'Alessandro",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Stephanie Stockar",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Marcello Canova",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Shobhit Gupta, Stefano D'Alessandro, Abhishek Gupta, Stephanie Stockar, Marcello Canova",
+    "venue": "IEEE Control Systems Letters",
+    "volume": "7",
+    "pages": "847–852",
+    "year": 2022,
+    "publisher": "IEEE",
+    "bibtex": "@article{gupta2022computationally,\n  title={A Computationally Efficient Algorithm for Perturbed Dynamic Programs (A-PDP)},\n  author={Gupta, Shobhit and D'Alessandro, Stefano and Gupta, Abhishek and Stockar, Stephanie and Canova, Marcello},\n  journal={IEEE Control Systems Letters},\n  volume={7},\n  pages={847--852},\n  year={2022},\n  publisher={IEEE}\n}"
+  },
+  {
+    "id": "gupta2022algorithm",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "An Algorithm to Warm Start Perturbed (WASP) Constrained Dynamic Programs",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Shreshta Rajakumar Deshpande",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Marcello Canova",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Shreshta Rajakumar Deshpande, Marcello Canova",
+    "venue": "IEEE Open Journal of Control Systems",
+    "volume": "1",
+    "pages": "1–14",
+    "year": 2022,
+    "publisher": "IEEE",
+    "bibtex": "@article{gupta2022algorithm,\n  title={An Algorithm to Warm Start Perturbed (WASP) Constrained Dynamic Programs},\n  author={Gupta, Abhishek and Deshpande, Shreshta Rajakumar and Canova, Marcello},\n  journal={IEEE Open Journal of Control Systems},\n  volume={1},\n  pages={1--14},\n  year={2022},\n  publisher={IEEE}\n}"
+  },
+  {
+    "id": "regatti2022byzantine",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Byzantine Resilience With Reputation Scores",
+    "authors": [
+      {
+        "name": "Jayanth Regatti",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Hao Chen",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Jayanth Regatti, Hao Chen, Abhishek Gupta",
+    "venue": "2022 58th Annual Allerton Conference on Communication, Control, and Computing (Allerton)",
+    "pages": "1–8",
+    "year": 2022,
+    "bibtex": "@inproceedings{regatti2022byzantine,\n  title={Byzantine Resilience With Reputation Scores},\n  author={Regatti, Jayanth and Chen, Hao and Gupta, Abhishek},\n  booktitle={2022 58th Annual Allerton Conference on Communication, Control, and Computing (Allerton)},\n  pages={1--8},\n  year={2022},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "chen2022change",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Change Detection of Markov Kernels with Unknown Pre and Post Change Kernel",
+    "authors": [
+      {
+        "name": "Hao Chen",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Jiacheng Tang",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Hao Chen, Jiacheng Tang, Abhishek Gupta",
+    "venue": "2022 IEEE 61st Conference on Decision and Control (CDC)",
+    "pages": "4814–4820",
+    "year": 2022,
+    "bibtex": "@inproceedings{chen2022change,\n  title={Change Detection of Markov Kernels with Unknown Pre and Post Change Kernel},\n  author={Chen, Hao and Tang, Jiacheng and Gupta, Abhishek},\n  booktitle={2022 IEEE 61st Conference on Decision and Control (CDC)},\n  pages={4814--4820},\n  year={2022},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "regatti2022finite",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Finite sample analysis of minmax variant of offline reinforcement learning for general MDPs",
+    "authors": [
+      {
+        "name": "Jayanth Reddy Regatti",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Jayanth Reddy Regatti, Abhishek Gupta",
+    "venue": "IEEE Open Journal of Control Systems",
+    "volume": "1",
+    "pages": "152–163",
+    "year": 2022,
+    "publisher": "IEEE",
+    "bibtex": "@article{regatti2022finite,\n  title={Finite sample analysis of minmax variant of offline reinforcement learning for general MDPs},\n  author={Regatti, Jayanth Reddy and Gupta, Abhishek},\n  journal={IEEE Open Journal of Control Systems},\n  volume={1},\n  pages={152--163},\n  year={2022},\n  publisher={IEEE}\n}"
+  },
+  {
+    "id": "deng2022fleet",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Fleet sizing and charger allocation in electric vehicle sharing systems",
+    "authors": [
+      {
+        "name": "Yuntian Deng",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Ness B Shroff",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Yuntian Deng, Abhishek Gupta, Ness B Shroff",
+    "venue": "IFAC Journal of Systems and Control",
+    "volume": "22",
+    "pages": "100210",
+    "year": 2022,
+    "publisher": "Elsevier",
+    "bibtex": "@article{deng2022fleet,\n  title={Fleet sizing and charger allocation in electric vehicle sharing systems},\n  author={Deng, Yuntian and Gupta, Abhishek and Shroff, Ness B},\n  journal={IFAC Journal of Systems and Control},\n  volume={22},\n  pages={100210},\n  year={2022},\n  publisher={Elsevier}\n}"
+  },
+  {
+    "id": "deng2022incentive",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Incentive design and profit sharing in multi-modal transportation networks",
+    "authors": [
+      {
+        "name": "Yuntian Deng",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Shiping Shao",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Archak Mittal",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Richard Twumasi-Boakye",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "James Fishelson",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Ness B Shroff",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Yuntian Deng, Shiping Shao, Archak Mittal, Richard Twumasi-Boakye, James Fishelson, Abhishek Gupta, Ness B Shroff",
+    "venue": "Transportation Research Part B: Methodological",
+    "volume": "163",
+    "pages": "1–21",
+    "year": 2022,
+    "publisher": "Elsevier",
+    "bibtex": "@article{deng2022incentive,\n  title={Incentive design and profit sharing in multi-modal transportation networks},\n  author={Deng, Yuntian and Shao, Shiping and Mittal, Archak and Twumasi-Boakye, Richard and Fishelson, James and Gupta, Abhishek and Shroff, Ness B},\n  journal={Transportation Research Part B: Methodological},\n  volume={163},\n  pages={1--21},\n  year={2022},\n  publisher={Elsevier}\n}"
+  },
+  {
+    "id": "deng2022interference",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Interference constrained beam alignment for time-varying channels via kernelized bandits",
+    "authors": [
+      {
+        "name": "Yuntian Deng",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Xingyu Zhou",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Arnob Ghosh",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Ness B Shroff",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Yuntian Deng, Xingyu Zhou, Arnob Ghosh, Abhishek Gupta, Ness B Shroff",
+    "venue": "2022 20th International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks (WiOpt)",
+    "pages": "25–32",
+    "year": 2022,
+    "bibtex": "@inproceedings{deng2022interference,\n  title={Interference constrained beam alignment for time-varying channels via kernelized bandits},\n  author={Deng, Yuntian and Zhou, Xingyu and Ghosh, Arnob and Gupta, Abhishek and Shroff, Ness B},\n  booktitle={2022 20th International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks (WiOpt)},\n  pages={25--32},\n  year={2022},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "singh2022learning",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Learning in Constrained Markov Decision Processes",
+    "authors": [
+      {
+        "name": "Rahul Singh",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Ness B Shroff",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Rahul Singh, Abhishek Gupta, Ness B Shroff",
+    "venue": "IEEE Transactions on Control of Network Systems",
+    "volume": "10",
+    "number": "1",
+    "pages": "441–453",
+    "year": 2022,
+    "publisher": "IEEE",
+    "bibtex": "@article{singh2022learning,\n  title={Learning in Constrained Markov Decision Processes},\n  author={Singh, Rahul and Gupta, Abhishek and Shroff, Ness B},\n  journal={IEEE Transactions on Control of Network Systems},\n  volume={10},\n  number={1},\n  pages={441--453},\n  year={2022},\n  publisher={IEEE}\n}"
+  },
+  {
+    "id": "deng2022multi",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Multi-objective vehicle rebalancing for ridehailing system using a reinforcement learning approach",
+    "authors": [
+      {
+        "name": "Yuntian Deng",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Hao Chen",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Shiping Shao",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Jiacheng Tang",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Jianzong Pi",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Yuntian Deng, Hao Chen, Shiping Shao, Jiacheng Tang, Jianzong Pi, Abhishek Gupta",
+    "venue": "Journal of Management Science and Engineering",
+    "volume": "7",
+    "number": "2",
+    "pages": "346–364",
+    "year": 2022,
+    "publisher": "Elsevier",
+    "bibtex": "@article{deng2022multi,\n  title={Multi-objective vehicle rebalancing for ridehailing system using a reinforcement learning approach},\n  author={Deng, Yuntian and Chen, Hao and Shao, Shiping and Tang, Jiacheng and Pi, Jianzong and Gupta, Abhishek},\n  journal={Journal of Management Science and Engineering},\n  volume={7},\n  number={2},\n  pages={346--364},\n  year={2022},\n  publisher={Elsevier}\n}"
+  },
+  {
+    "id": "tang2022nash",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Nash equilibrium control policy against bus-off attacks in CAN networks",
+    "authors": [
+      {
+        "name": "Jiacheng Tang",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Shiping Shao",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Jiguo Song",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Jiacheng Tang, Shiping Shao, Jiguo Song, Abhishek Gupta",
+    "venue": "IEEE Transactions on Information Forensics and Security",
+    "volume": "18",
+    "pages": "980–990",
+    "year": 2022,
+    "publisher": "IEEE",
+    "bibtex": "@article{tang2022nash,\n  title={Nash equilibrium control policy against bus-off attacks in CAN networks},\n  author={Tang, Jiacheng and Shao, Shiping and Song, Jiguo and Gupta, Abhishek},\n  journal={IEEE Transactions on Information Forensics and Security},\n  volume={18},\n  pages={980--990},\n  year={2022},\n  publisher={IEEE}\n}"
+  },
+  {
+    "id": "heyman2022rank",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Rank reduction in bimatrix games",
+    "authors": [
+      {
+        "name": "Joseph L. Heyman",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Joseph L. Heyman, Abhishek Gupta",
+    "venue": "accepted in International Game Theory Review",
+    "year": 2022,
+    "bibtex": "@article{heyman2022rank,\n\ttitle={Rank reduction in bimatrix games},\n\tauthor={Heyman, Joseph L. and Gupta, Abhishek},\n\tyear={2022},\n\tjournal={accepted in International Game Theory Review}\n}"
+  },
+  {
+    "id": "deshpande2022real",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Real-Time Ecodriving Control in Electrified Connected and Autonomous Vehicles Using Approximate Dynamic Programing",
+    "authors": [
+      {
+        "name": "Shreshta Rajakumar Deshpande",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Shobhit Gupta",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Marcello Canova",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Shreshta Rajakumar Deshpande, Shobhit Gupta, Abhishek Gupta, Marcello Canova",
+    "venue": "Journal of Dynamic Systems, Measurement, and Control",
+    "volume": "144",
+    "number": "1",
+    "year": 2022,
+    "publisher": "American Society of Mechanical Engineers Digital Collection",
+    "bibtex": "@article{deshpande2022real,\n  title={Real-Time Ecodriving Control in Electrified Connected and Autonomous Vehicles Using Approximate Dynamic Programing},\n  author={Deshpande, Shreshta Rajakumar and Gupta, Shobhit and Gupta, Abhishek and Canova, Marcello},\n  journal={Journal of Dynamic Systems, Measurement, and Control},\n  volume={144},\n  number={1},\n  year={2022},\n  publisher={American Society of Mechanical Engineers Digital Collection}\n}"
+  },
+  {
+    "id": "zhu2022safe",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Safe Model-based Off-policy Reinforcement Learning for Eco-Driving in Connected and Automated Hybrid Electric Vehicles",
+    "authors": [
+      {
+        "name": "Zhaoxuan Zhu",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Nicola Pivaro",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Shobhit Gupta",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Marcello Canova",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Zhaoxuan Zhu, Nicola Pivaro, Shobhit Gupta, Abhishek Gupta, Marcello Canova",
+    "venue": "IEEE Transactions on Intelligent Vehicles",
+    "year": 2022,
+    "publisher": "IEEE",
+    "bibtex": "@article{zhu2022safe,\n  title={Safe Model-based Off-policy Reinforcement Learning for Eco-Driving in Connected and Automated Hybrid Electric Vehicles},\n  author={Zhu, Zhaoxuan and Pivaro, Nicola and Gupta, Shobhit and Gupta, Abhishek and Canova, Marcello},\n  journal={IEEE Transactions on Intelligent Vehicles},\n  year={2022},\n  publisher={IEEE}\n}"
+  },
+  {
+    "id": "deng2022weighted",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Weighted gaussian process bandits for non-stationary environments",
+    "authors": [
+      {
+        "name": "Yuntian Deng",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Xingyu Zhou",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Baekjin Kim",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Ambuj Tewari",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Ness Shroff",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Yuntian Deng, Xingyu Zhou, Baekjin Kim, Ambuj Tewari, Abhishek Gupta, Ness Shroff",
+    "venue": "International Conference on Artificial Intelligence and Statistics",
+    "pages": "6909–6932",
+    "year": 2022,
+    "bibtex": "@inproceedings{deng2022weighted,\n  title={Weighted gaussian process bandits for non-stationary environments},\n  author={Deng, Yuntian and Zhou, Xingyu and Kim, Baekjin and Tewari, Ambuj and Gupta, Abhishek and Shroff, Ness},\n  booktitle={International Conference on Artificial Intelligence and Statistics},\n  pages={6909--6932},\n  year={2022},\n  organization={PMLR}\n}"
+  },
+  {
+    "id": "regatti2021discussion",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "A Discussion of Artificial Intelligence Applications in SiC MOSFET Device Operation",
+    "authors": [
+      {
+        "name": "Jayanth Regatti",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Haoyang You",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Han Wang",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Jon Hall",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Alec Schnabel",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Boxue Hu",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Julia Zhang",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Jin Wang",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Jayanth Regatti, Haoyang You, Han Wang, Jon Hall, Alec Schnabel, Boxue Hu, Julia Zhang, Jin Wang, Abhishek Gupta",
+    "venue": "2021 IEEE International Electric Machines & Drives Conference (IEMDC)",
+    "pages": "1–5",
+    "year": 2021,
+    "bibtex": "@inproceedings{regatti2021discussion,\n  title={A Discussion of Artificial Intelligence Applications in {S}i{C} {MOSFET} Device Operation},\n  author={Regatti, Jayanth and You, Haoyang and Wang, Han and Hall, Jon and Schnabel, Alec and Hu, Boxue and Zhang, Julia and Wang, Jin and Gupta, Abhishek},\n  booktitle={2021 IEEE International Electric Machines \\& Drives Conference (IEMDC)},\n  pages={1--5},\n  year={2021},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "gupta2021convergence",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Convergence of recursive stochastic algorithms using Wasserstein divergence",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "William B Haskell",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, William B Haskell",
+    "venue": "SIAM Journal on Mathematics of Data Science",
+    "volume": "3",
+    "number": "4",
+    "pages": "1141–1167",
+    "year": 2021,
+    "publisher": "SIAM",
+    "bibtex": "@article{gupta2021convergence,\n  title={Convergence of recursive stochastic algorithms using Wasserstein divergence},\n  author={Gupta, Abhishek and Haskell, William B},\n  journal={SIAM Journal on Mathematics of Data Science},\n  volume={3},\n  number={4},\n  pages={1141--1167},\n  year={2021},\n  publisher={SIAM}\n}"
+  },
+  {
+    "id": "gupta2021existencecountable",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Existence of Team-Optimal Strategies in Teams with Countable Observation Spaces",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta",
+    "venue": "IEEE Transactions on Automatic Control",
+    "pages": "4792–4798",
+    "year": 2021,
+    "publisher": "IEEE",
+    "bibtex": "@article{gupta2021existencecountable,\n  title={Existence of Team-Optimal Strategies in Teams with Countable Observation Spaces},\n  author={Gupta, Abhishek},\n  journal={IEEE Transactions on Automatic Control},\n  pages = {4792--4798},\n  year={2021},\n  publisher={IEEE}\n}"
+  },
+  {
+    "id": "shao2021pricing",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Fair Pricing of Ridehailing Services with Asymmetric Demand and Travel Time",
+    "authors": [
+      {
+        "name": "Shiping Shao",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Archak Mittal",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Richard Twumasi-Boakye",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Shiping Shao, Archak Mittal, Richard Twumasi-Boakye, Abhishek Gupta",
+    "venue": "IEEE Transactions on Control of Networked Systems",
+    "year": 2021,
+    "bibtex": "@article{shao2021pricing,\n  title={Fair Pricing of Ridehailing Services with Asymmetric Demand and Travel Time},\n  author={Shao, Shiping and Mittal, Archak and Twumasi-Boakye, Richard and Gupta, Abhishek},\n  journal={IEEE Transactions on Control of Networked Systems},\n  year={2021}\n}"
+  },
+  {
+    "id": "li2021fitted",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Fitted Value Iteration in Continuous MDPs With State Dependent Action Sets",
+    "authors": [
+      {
+        "name": "Hao Li",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Shiping Shao",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Hao Li, Shiping Shao, Abhishek Gupta",
+    "venue": "IEEE Control Systems Letters",
+    "volume": "6",
+    "pages": "1310–1315",
+    "year": 2021,
+    "publisher": "IEEE",
+    "bibtex": "@article{li2021fitted,\n  title={Fitted Value Iteration in Continuous {MDP}s With State Dependent Action Sets},\n  author={Li, Hao and Shao, Shiping and Gupta, Abhishek},\n  journal={IEEE Control Systems Letters},\n  volume={6},\n  pages={1310--1315},\n  year={2021},\n  publisher={IEEE}\n}"
+  },
+  {
+    "id": "you2021intelligent",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Intelligent Health Monitoring System Hardware Design for Paralleled Devices with Fast dV/dt Output",
+    "authors": [
+      {
+        "name": "Haoyang You",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Han Wang",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Jayanth Regatti",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Jon Hall",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Alec Schnabel",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Boxue Hu",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Julia Zhang",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Jin Wang",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Haoyang You, Han Wang, Jayanth Regatti, Jon Hall, Alec Schnabel, Boxue Hu, Julia Zhang, Abhishek Gupta, Jin Wang",
+    "venue": "2021 IEEE International Electric Machines & Drives Conference (IEMDC)",
+    "pages": "1–5",
+    "year": 2021,
+    "bibtex": "@inproceedings{you2021intelligent,\n  title={Intelligent Health Monitoring System Hardware Design for Paralleled Devices with Fast {dV/dt} Output},\n  author={You, Haoyang and Wang, Han and Regatti, Jayanth and Hall, Jon and Schnabel, Alec and Hu, Boxue and Zhang, Julia and Gupta, Abhishek and Wang, Jin},\n  booktitle={2021 IEEE International Electric Machines \\& Drives Conference (IEMDC)},\n  pages={1--5},\n  year={2021},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "tang2021sketching",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Sketching for Elimination of Communication Links in LQG Teams",
+    "authors": [
+      {
+        "name": "Jiacheng Tang",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Jiacheng Tang, Abhishek Gupta",
+    "venue": "IEEE Control Systems Letters",
+    "pages": "1016–1021",
+    "year": 2021,
+    "publisher": "IEEE",
+    "bibtex": "@article{tang2021sketching,\n  title={Sketching for Elimination of Communication Links in LQG Teams},\n  author={Tang, Jiacheng and Gupta, Abhishek},\n  journal={IEEE Control Systems Letters},\n  year={2021},\n  pages = {1016--1021},\n  publisher={IEEE}\n}"
+  },
+  {
+    "id": "pi2021two",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Two Algorithms for Computing Exact and Approximate Nash Equilibria in Bimatrix Games",
+    "authors": [
+      {
+        "name": "Jianzong Pi",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Joseph L. Heyman",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Jianzong Pi, Joseph L. Heyman, Abhishek Gupta",
+    "venue": "International Conference on Decision and Game Theory for Security",
+    "pages": "17–36",
+    "year": 2021,
+    "bibtex": "@inproceedings{pi2021two,\n  title={Two Algorithms for Computing Exact and Approximate Nash Equilibria in Bimatrix Games},\n  author={Pi, Jianzong and Heyman, Joseph L. and Gupta, Abhishek},\n  booktitle={International Conference on Decision and Game Theory for Security},\n  pages={17--36},\n  year={2021},\n  organization={Springer}\n}"
+  },
+  {
+    "id": "gupta2020existence",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Existence of Team-Optimal Solutions in Static Teams with Common Information: A Topology of Information Approach",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta",
+    "venue": "SIAM Journal on Control and Optimization",
+    "volume": "58",
+    "number": "2",
+    "pages": "998-1021",
+    "year": 2020,
+    "bibtex": "@article{gupta2020existence,\n\tauthor = {Gupta, Abhishek},\n\ttitle = {Existence of Team-Optimal Solutions in Static Teams with Common Information: A Topology of Information Approach},\n\tjournal = {SIAM Journal on Control and Optimization},\n\tvolume = {58},\n\tnumber = {2},\n\tpages = {998-1021},\n\tyear = {2020}\n}"
+  },
+  {
+    "id": "gupta2020some",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Some Limit Properties of Markov Chains Induced by Recursive Stochastic Algorithms",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Hao Chen",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Jianzong Pi",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Gaurav Tendolkar",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Hao Chen, Jianzong Pi, Gaurav Tendolkar",
+    "venue": "SIAM Journal on Mathematics of Data Science",
+    "volume": "2",
+    "number": "4",
+    "pages": "967–1003",
+    "year": 2020,
+    "publisher": "SIAM",
+    "bibtex": "@article{gupta2020some,\n  title={Some Limit Properties of Markov Chains Induced by Recursive Stochastic Algorithms},\n  author={Gupta, Abhishek and Chen, Hao and Pi, Jianzong and Tendolkar, Gaurav},\n  journal={SIAM Journal on Mathematics of Data Science},\n  volume={2},\n  number={4},\n  pages={967--1003},\n  year={2020},\n  publisher={SIAM}\n}"
+  },
+  {
+    "id": "heyman2019bimatrix",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "A fast algorithm to reduce 2xn bimatrix games to rank-1 games",
+    "authors": [
+      {
+        "name": "Joseph L. Heyman",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Joseph L. Heyman, Abhishek Gupta",
+    "venue": "2019 18th European Control Conference (ECC)",
+    "pages": "1049–1054",
+    "year": 2019,
+    "bibtex": "@inproceedings{heyman2019bimatrix,\n  title={A fast algorithm to reduce 2xn bimatrix games to rank-1 games},\n  author={Heyman, Joseph L. and Gupta, Abhishek},\n  booktitle={2019 18th European Control Conference (ECC)},\n  pages={1049--1054},\n  year={2019},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "sharma2019empirical",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "An empirical relative value learning algorithm for non-parametric MDPs with continuous state space",
+    "authors": [
+      {
+        "name": "Hiteshi Sharma",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Rahul Jain",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Hiteshi Sharma, Rahul Jain, Abhishek Gupta",
+    "venue": "2019 18th European Control Conference (ECC)",
+    "pages": "1368–1373",
+    "year": 2019,
+    "bibtex": "@inproceedings{sharma2019empirical,\n  title={An empirical relative value learning algorithm for non-parametric {MDP}s with continuous state space},\n  author={Sharma, Hiteshi and Jain, Rahul and Gupta, Abhishek},\n  booktitle={2019 18th European Control Conference (ECC)},\n  pages={1368--1373},\n  year={2019},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "dakhil2019auction",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Auctioning electricity under deep renewable integration using a penalty for shortfall",
+    "authors": [
+      {
+        "name": "Balsam Dakhil",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Balsam Dakhil, Abhishek Gupta",
+    "venue": "Sustainable Energy, Grids and Networks",
+    "volume": "20",
+    "pages": "100266",
+    "year": 2019,
+    "publisher": "Elsevier",
+    "bibtex": "@article{dakhil2019auction,\n  title={Auctioning electricity under deep renewable integration using a penalty for shortfall},\n  author={Dakhil, Balsam and Gupta, Abhishek},\n  journal={Sustainable Energy, Grids and Networks},\n  volume={20},\n  pages={100266},\n  year={2019},\n  publisher={Elsevier}\n}"
+  },
+  {
+    "id": "regatti2019distributed",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Distributed SGD Generalizes Well Under Asynchrony",
+    "authors": [
+      {
+        "name": "Jayanth Regatti",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Gaurav Tendolkar",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Yi Zhou",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Yingbin Liang",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Jayanth Regatti, Gaurav Tendolkar, Yi Zhou, Abhishek Gupta, Yingbin Liang",
+    "venue": "2019 57th Annual Allerton Conference on Communication, Control, and Computing (Allerton)",
+    "pages": "863–870",
+    "year": 2019,
+    "bibtex": "@inproceedings{regatti2019distributed,\n  title={Distributed {SGD} Generalizes Well Under Asynchrony},\n  author={Regatti, Jayanth and Tendolkar, Gaurav and Zhou, Yi and Gupta, Abhishek and Liang, Yingbin},\n  booktitle={2019 57th Annual Allerton Conference on Communication, Control, and Computing (Allerton)},\n  pages={863--870},\n  year={2019},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "regatti2019traffic",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Traffic-Aware Adaptive Routing for Minimizing Fuel Consumption",
+    "authors": [
+      {
+        "name": "Jayanth Regatti",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Jayanth Regatti, Abhishek Gupta",
+    "venue": "2019 American Control Conference (ACC)",
+    "pages": "4818–4825",
+    "year": 2019,
+    "bibtex": "@inproceedings{regatti2019traffic,\n  title={Traffic-Aware Adaptive Routing for Minimizing Fuel Consumption},\n  author={Regatti, Jayanth and Gupta, Abhishek},\n  booktitle={2019 American Control Conference (ACC)},\n  pages={4818--4825},\n  year={2019},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "heyman2018gamesec",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Colonel Blotto Game with Coalition Formation for Sharing Resources",
+    "authors": [
+      {
+        "name": "Joseph L. Heyman",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Joseph L. Heyman, Abhishek Gupta",
+    "venue": "International Conference on Decision and Game Theory for Security",
+    "pages": "166–185",
+    "year": 2018,
+    "bibtex": "@inproceedings{heyman2018gamesec,\n  title={Colonel {B}lotto Game with Coalition Formation for Sharing Resources},\n  author={Heyman, Joseph L. and Gupta, Abhishek},\n  booktitle={International Conference on Decision and Game Theory for Security},\n  pages={166--185},\n  year={2018},\n  organization={Springer}\n}"
+  },
+  {
+    "id": "tang2018allerton",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Communication Link Elimination in Static LQG Teams",
+    "authors": [
+      {
+        "name": "Jiacheng Tang",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Jiacheng Tang, Abhishek Gupta",
+    "venue": "2018 56th Annual Allerton Conference on Communication, Control, and Computing (Allerton)",
+    "pages": "290–296",
+    "year": 2018,
+    "bibtex": "@inproceedings{tang2018allerton,\n  title={Communication Link Elimination in Static LQG Teams},\n  author={Tang, Jiacheng and Gupta, Abhishek},\n  booktitle={2018 56th Annual Allerton Conference on Communication, Control, and Computing (Allerton)},\n  pages={290--296},\n  year={2018},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "gupta2018allerton",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Dynamic Economic Dispatch and Price Evolution under Ramping Constraints and Uncertain Demand",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Balsam Dakhil",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Rahul Jain",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Balsam Dakhil, Rahul Jain",
+    "venue": "2018 56th Annual Allerton Conference on Communication, Control, and Computing (Allerton)",
+    "pages": "48-55",
+    "year": 2018,
+    "bibtex": "@inproceedings{gupta2018allerton,\nauthor={Abhishek Gupta and Balsam Dakhil and Rahul Jain},\nbooktitle={2018 56th Annual Allerton Conference on Communication, Control, and Computing (Allerton)},\ntitle={Dynamic Economic Dispatch and Price Evolution under Ramping Constraints and Uncertain Demand},\nyear={2018},\npages={48-55},\nmonth={Oct},\n}"
+  },
+  {
+    "id": "dakhil2018cdc",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Selling Renewable Generation with a Penalty for Shortfall",
+    "authors": [
+      {
+        "name": "B. Dakhil",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "A. Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "B. Dakhil, A. Gupta",
+    "venue": "2018 IEEE Conference on Decision and Control (CDC)",
+    "pages": "6495-6500",
+    "year": 2018,
+    "bibtex": "@inproceedings{dakhil2018cdc,\nauthor={B. {Dakhil} and A. {Gupta}},\nbooktitle={2018 IEEE Conference on Decision and Control (CDC)},\ntitle={Selling Renewable Generation with a Penalty for Shortfall},\nyear={2018},\npages={6495-6500},\nmonth={Dec},\n}"
+  },
+  {
+    "id": "gupta2017",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Dynamic Games With Asymmetric Information and Resource Constrained Players With Applications to Security of Cyberphysical Systems",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Cédric Langbort",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Tamer Başar",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Cédric Langbort, Tamer Başar",
+    "venue": "IEEE Transactions on Control of Network Systems",
+    "volume": "4",
+    "number": "1",
+    "pages": "71–81",
+    "year": 2017,
+    "publisher": "IEEE",
+    "bibtex": "@article{gupta2017,\n  title={Dynamic Games With Asymmetric Information and Resource Constrained Players With Applications to Security of Cyberphysical Systems},\n  author={Gupta, Abhishek and Langbort, C{\\'e}dric and Ba{\\c{s}}ar, Tamer},\n  journal={IEEE Transactions on Control of Network Systems},\n  volume={4},\n  number={1},\n  pages={71--81},\n  year={2017},\n  publisher={IEEE}\n}"
+  },
+  {
+    "id": "nayyar2017zerosum",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Information structures and values in zero-sum stochastic games",
+    "authors": [
+      {
+        "name": "Ashutosh Nayyar",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Ashutosh Nayyar, Abhishek Gupta",
+    "venue": "2017 American Control Conference (ACC)",
+    "pages": "3658–3663",
+    "year": 2017,
+    "bibtex": "@inproceedings{nayyar2017zerosum,\n  title={Information structures and values in zero-sum stochastic games},\n  author={Nayyar, Ashutosh and Gupta, Abhishek},\n  booktitle={2017 American Control Conference (ACC)},\n  pages={3658--3663},\n  year={2017},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "gupta2016privacy",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Privacy-aware stochastic control with a ``snoopy'' adversary: A game-theoretic approach",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta",
+    "venue": "2016 Annual Conference on Information Science and Systems (CISS)",
+    "pages": "187–191",
+    "year": 2016,
+    "bibtex": "@inproceedings{gupta2016privacy,\n  title={Privacy-aware stochastic control with a ``snoopy'' adversary: {A} game-theoretic approach},\n  author={Gupta, Abhishek},\n  booktitle={2016 Annual Conference on Information Science and Systems (CISS)},\n  pages={187--191},\n  year={2016},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "gupta2015edp",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "An empirical algorithm for relative value iteration for average-cost MDPs",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Rahul Jain",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Peter W Glynn",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Rahul Jain, Peter W Glynn",
+    "venue": "54th IEEE Conference on Decision and Control (CDC)",
+    "pages": "5079–5084",
+    "year": 2015,
+    "bibtex": "@inproceedings{gupta2015edp,\n  title={An empirical algorithm for relative value iteration for average-cost {MDP}s},\n  author={Gupta, Abhishek and Jain, Rahul and Glynn, Peter W},\n  booktitle={54th IEEE Conference on Decision and Control (CDC)},\n  pages={5079--5084},\n  year={2015},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "gupta2015equilibria",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Equilibria in two-stage electricity markets",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Rahul Jain",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Kameshwar Poolla",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Pravin Varaiya",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Rahul Jain, Kameshwar Poolla, Pravin Varaiya",
+    "venue": "54th IEEE Conference on Decision and Control (CDC)",
+    "pages": "5833–5838",
+    "year": 2015,
+    "bibtex": "@inproceedings{gupta2015equilibria,\n  title={Equilibria in two-stage electricity markets},\n  author={Gupta, Abhishek and Jain, Rahul and Poolla, Kameshwar and Varaiya, Pravin},\n  booktitle={54th IEEE Conference on Decision and Control (CDC)},\n  pages={5833--5838},\n  year={2015},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "gupta2015team",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "On the existence of optimal policies for a class of static and sequential dynamic teams",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Serdar Yüksel",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Tamer Başar",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Cédric Langbort",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Serdar Yüksel, Tamer Başar, Cédric Langbort",
+    "venue": "SIAM Journal on Control and Optimization",
+    "volume": "53",
+    "number": "3",
+    "pages": "1681–1712",
+    "year": 2015,
+    "publisher": "SIAM",
+    "bibtex": "@article{gupta2015team,\n  title={On the existence of optimal policies for a class of static and sequential dynamic teams},\n  author={Gupta, Abhishek and Y\\\"{u}ksel, Serdar and Ba\\c{s}ar, Tamer and Langbort, C\\'{e}dric},\n  journal={SIAM Journal on Control and Optimization},\n  volume={53},\n  number={3},\n  pages={1681--1712},\n  year={2015},\n  publisher={SIAM}\n}"
+  },
+  {
+    "id": "gupta2015allerton",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Scheduling, pricing, and efficiency of non-preemptive flexible loads under direct load control",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Rahul Jain",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Ram Rajagopal",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Rahul Jain, Ram Rajagopal",
+    "venue": "53rd Annual Allerton Conference on Communication, Control, and Computing (Allerton)",
+    "pages": "1008–1015",
+    "year": 2015,
+    "bibtex": "@inproceedings{gupta2015allerton,\n  title={Scheduling, pricing, and efficiency of non-preemptive flexible loads under direct load control},\n  author={Gupta, Abhishek and Jain, Rahul and Rajagopal, Ram},\n  booktitle={53rd Annual Allerton Conference on Communication, Control, and Computing (Allerton)},\n  pages={1008--1015},\n  year={2015},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "gupta2014three",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "A Three-Stage Colonel Blotto Game with Applications to Cyber-Physical Security",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Galina Schwartz",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Cedric Langbort",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "S Shankar Sastry",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Tamer Başar",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Galina Schwartz, Cedric Langbort, S Shankar Sastry, Tamer Başar",
+    "venue": "Technical Report No. UCB/EECS-2014-19, EECS Department, University of California at Berkeley",
+    "year": 2014,
+    "bibtex": "@article{gupta2014three,\n  title={A Three-Stage {C}olonel {B}lotto Game with Applications to Cyber-Physical Security},\n  author={Gupta, Abhishek and Schwartz, Galina and Langbort, Cedric and Sastry, S Shankar and Ba\\c{s}ar, Tamer},\n  journal = {Technical Report No. UCB/EECS-2014-19, EECS Department, University of California at Berkeley},\n  year={2014}\n}"
+  },
+  {
+    "id": "gupta2014blottoacc",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "A three-Stage Colonel Blotto game with applications to cyberphysical security",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Galina Schwartz",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Cédric Langbort",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Shankar S. Sastry",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Tamer Başar",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Galina Schwartz, Cédric Langbort, Shankar S. Sastry, Tamer Başar",
+    "venue": "Proc. 2014 American Control Conference (ACC)",
+    "pages": "3832–3837",
+    "year": 2014,
+    "bibtex": "@inproceedings{gupta2014blottoacc,\n  title={A three-Stage {C}olonel {B}lotto game with applications to cyberphysical security},\n  author={Gupta, Abhishek and Schwartz, Galina  and Langbort, C\\'edric and Sastry, Shankar S. and Ba\\c{s}ar, Tamer},\n  booktitle={Proc. 2014 American Control Conference (ACC)},\n  pages={3832--3837},\n  year={2014},\n  month={June}\n}"
+  },
+  {
+    "id": "gupta2014gamesec",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "A three-Stage Colonel Blotto game: When to provide more information to an adversary",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Tamer Başar",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Galina Schwartz",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Tamer Başar, Galina Schwartz",
+    "venue": "Decision and Game Theory for Security, Lecture Notes in Computer Science edited by R. Poovendran and W. Saad",
+    "volume": "8840",
+    "pages": "216–233",
+    "year": 2014,
+    "bibtex": "@inproceedings{gupta2014gamesec,\n  title={A three-Stage {C}olonel {B}lotto game: {W}hen to provide more information to an adversary},\n  author={Gupta, Abhishek and Ba\\c{s}ar, Tamer and Schwartz, Galina},\n  booktitle={Decision and Game Theory for Security, Lecture Notes in Computer Science edited by R. Poovendran and W. Saad},\n  volume = {8840},\n  pages = {216--233},\n  year={2014},\n  month={November}\n}"
+  },
+  {
+    "id": "gupta2014lqg",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Common information based Markov perfect equilibria for linear-Gaussian games with asymmetric information",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Ashutosh Nayyar",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Cédric Langbort",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Tamer Başar",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Ashutosh Nayyar, Cédric Langbort, Tamer Başar",
+    "venue": "SIAM Journal on Control and Optimization",
+    "volume": "52",
+    "number": "5",
+    "pages": "3228–3260",
+    "year": 2014,
+    "publisher": "SIAM",
+    "bibtex": "@article{gupta2014lqg,\n  title={Common information based {M}arkov perfect equilibria for linear-{G}aussian games with asymmetric information},\n  author={Gupta, Abhishek and Nayyar, Ashutosh and Langbort, C\\'edric and Ba\\c{s}ar, Tamer},\n  journal={SIAM Journal on Control and Optimization},\n  volume={52},\n  number={5},\n  pages={3228--3260},\n  year={2014},\n  publisher={SIAM}\n}"
+  },
+  {
+    "id": "nayyar2014common",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Common Information Based Markov Perfect Equilibria for Stochastic Games With Asymmetric Information: Finite Games",
+    "authors": [
+      {
+        "name": "A. Nayyar",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "A. Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "C. Langbort",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "T. Başar",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "A. Nayyar, A. Gupta, C. Langbort, T. Başar",
+    "venue": "IEEE Transactions on Automatic Control",
+    "volume": "59",
+    "number": "3",
+    "pages": "555-570",
+    "year": 2014,
+    "bibtex": "@article{nayyar2014common, \n    author={Nayyar, A. and Gupta, A. and Langbort, C. and Ba\\c{s}ar, T.}, \n    journal={IEEE Transactions on Automatic Control}, \n    title={Common Information Based {M}arkov Perfect Equilibria for Stochastic Games With Asymmetric Information: {F}inite Games}, \n    year={2014}, \n    month={March}, \n    volume={59}, \n    number={3}, \n    pages={555-570}\n}"
+  },
+  {
+    "id": "gupta2014incentivecdc",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Dynamic incentive design in multi-stage linear-Gaussian games of asymmetric information: A common information based approach",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Tamer Başar",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Tamer Başar",
+    "venue": "Proc. of 53rd IEEE Conference in Decision and Control (CDC)",
+    "pages": "414–419",
+    "year": 2014,
+    "bibtex": "@inproceedings{gupta2014incentivecdc,\n  title={Dynamic incentive design in multi-stage linear-{G}aussian games of asymmetric information: {A} common information based approach},\n  author={Gupta, Abhishek  and Ba\\c{s}ar, Tamer},\n  booktitle={Proc. of 53rd IEEE Conference in Decision and Control (CDC)},\n  year={2014},\n  month={December},\n  pages = {414--419}\n}"
+  },
+  {
+    "id": "gupta2014incentive",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Dynamic incentive design in multi-stage linear-Gaussian games with asymmetric information: A common information based approach",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Tamer Başar",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Tamer Başar",
+    "venue": "53rd IEEE Conference on Decision and Control (CDC)",
+    "pages": "414–419",
+    "year": 2014,
+    "bibtex": "@inproceedings{gupta2014incentive,\n  title={Dynamic incentive design in multi-stage linear-Gaussian games with asymmetric information: {A} common information based approach},\n  author={Gupta, Abhishek and Ba{\\c{s}}ar, Tamer},\n  booktitle={53rd IEEE Conference on Decision and Control (CDC)},\n  pages={414--419},\n  year={2014},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "gupta2014teamcdc",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "On the existence of optimal strategies in a class of dynamic stochastic teams",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Serdar Yüksel",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Tamer Başar",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Serdar Yüksel, Tamer Başar",
+    "venue": "Proc. of 53rd IEEE Conference in Decision and Control (CDC)",
+    "pages": "1681–1686",
+    "year": 2014,
+    "bibtex": "@inproceedings{gupta2014teamcdc,\n  title={On the existence of optimal strategies in a class of dynamic stochastic teams},\n  author={Gupta, Abhishek and Y\\\"uksel, Serdar  and Ba\\c{s}ar, Tamer},\n  booktitle={Proc. of 53rd IEEE Conference in Decision and Control (CDC)},\n  year={2014},\n  month={December},\n  pages = {1681--1686}\n}"
+  },
+  {
+    "id": "gupta2014teamacc",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "On the existence of optimal strategies in multi-agent stochastic teams",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Serdar Yüksel",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Cédric Langbort",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Tamer Başar",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Serdar Yüksel, Cédric Langbort, Tamer Başar",
+    "venue": "Proc. 2014 American Control Conference (ACC)",
+    "pages": "1945–1950",
+    "year": 2014,
+    "bibtex": "@inproceedings{gupta2014teamacc,\n  title={On the existence of optimal strategies in multi-agent stochastic teams},\n  author={Gupta, Abhishek and Y\\\"uksel, Serdar  and Langbort, C\\'edric and Ba\\c{s}ar, Tamer},\n  booktitle={Proc. 2014 American Control Conference (ACC)},\n  pages={1945--1950},\n  year={2014},\n  month={June}\n}"
+  },
+  {
+    "id": "barbie2014",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "The topology of information on the space of probability measures over Polish spaces",
+    "authors": [
+      {
+        "name": "Martin Barbie",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Martin Barbie, Abhishek Gupta",
+    "venue": "Journal of Mathematical Economics",
+    "volume": "52",
+    "pages": "98–111",
+    "year": 2014,
+    "publisher": "Elsevier",
+    "bibtex": "@article{barbie2014,\n  title={The topology of information on the space of probability measures over {P}olish spaces},\n  author={Barbie, Martin and Gupta, Abhishek},\n  journal={Journal of Mathematical Economics},\n  volume={52},\n  pages={98--111},\n  year={2014},\n  publisher={Elsevier}\n}"
+  },
+  {
+    "id": "bhatt2013",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "Jamming in mobile networks: A game-theoretic approach",
+    "authors": [
+      {
+        "name": "Sourabh Bhattacharya",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Tamer Başar",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Sourabh Bhattacharya, Abhishek Gupta, Tamer Başar",
+    "venue": "Numerical Algebra, Control & Optimization",
+    "volume": "3",
+    "number": "1",
+    "pages": "1–30",
+    "year": 2013,
+    "bibtex": "@article{bhatt2013,\n  title={Jamming in mobile networks: {A} game-theoretic approach},\n  author={Bhattacharya, Sourabh and Gupta, Abhishek and Ba{\\c{s}}ar, Tamer},\n  journal={Numerical Algebra, Control \\& Optimization},\n  volume={3},\n  number={1},\n  pages={1--30},\n  year={2013}\n}"
+  },
+  {
+    "id": "gupta2012",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "A dynamic transmitter-jammer game with asymmetric information",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Ashutosh Nayyar",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Cédric Langbort",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Tamer Başar",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Ashutosh Nayyar, Cédric Langbort, Tamer Başar",
+    "venue": "Proc. 51st IEEE Conference on Decision and Control",
+    "pages": "6477 – 6482",
+    "year": 2012,
+    "bibtex": "@inproceedings{ gupta2012,\n\tauthor = \"Abhishek Gupta and Ashutosh Nayyar and C{\\'e}dric Langbort and Tamer Ba\\c{s}ar\",\n\ttitle = \"A dynamic transmitter-jammer game with asymmetric information\",\n\tbooktitle = \"Proc. 51st IEEE Conference on Decision and Control\",\n\tyear = \"2012\",\n\tmonth = \"Dec.\",\n\tpages = \"6477 -- 6482\"\n}"
+  },
+  {
+    "id": "gupta2012myopic",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "On myopic strategies in dynamic adversarial team decision problems",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Pulkit Grover",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Cédric Langbort",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Tamer Başar",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Pulkit Grover, Cédric Langbort, Tamer Başar",
+    "venue": "46th Annual Conference on Information Sciences and Systems (CISS)",
+    "pages": "1–6",
+    "year": 2012,
+    "bibtex": "@inproceedings{gupta2012myopic,\n  title={On myopic strategies in dynamic adversarial team decision problems},\n  author={Gupta, Abhishek and Grover, Pulkit and Langbort, C{\\'e}dric and Ba{\\c{s}}ar, Tamer},\n  booktitle={46th Annual Conference on Information Sciences and Systems (CISS)},\n  pages={1--6},\n  year={2012},\n  organization={IEEE}\n}"
+  },
+  {
+    "id": "gupta2011decentralized",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Decentralized control of multi-agent systems with an adversarial switching topology",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Sourabh Bhattacharya",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Tamer Başar",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Sourabh Bhattacharya, Tamer Başar",
+    "venue": "Infotech @ Aerospace 2011",
+    "pages": "1585",
+    "year": 2011,
+    "bibtex": "@inproceedings{gupta2011decentralized,\n  title={Decentralized control of multi-agent systems with an adversarial switching topology},\n  author={Gupta, Abhishek and Bhattacharya, Sourabh and Ba\\c{s}ar, Tamer},\n  booktitle={Infotech @ Aerospace 2011},\n  pages={1585},\n  year={2011}\n}"
+  },
+  {
+    "id": "sbhattac2011",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Decentralized Opportunistic Navigation Strategies for Multi-agent Systems in the Presence of an Adversary",
+    "authors": [
+      {
+        "name": "Sourabh Bhattacharya",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Tamer Başar",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Sourabh Bhattacharya, Abhishek Gupta, Tamer Başar",
+    "venue": "Proc. IFAC World Congress",
+    "volume": "18",
+    "number": "1",
+    "pages": "11809–11814",
+    "year": 2011,
+    "bibtex": "@inproceedings{sbhattac2011,\n  title={Decentralized Opportunistic Navigation Strategies for Multi-agent Systems in the Presence of an Adversary},\n  author={Bhattacharya, Sourabh and Gupta, Abhishek and Ba\\c{s}ar, Tamer},\n  booktitle={Proc. IFAC World Congress},\n  volume={18},\n  number={1},\n  pages={11809--11814},\n  year={2011}\n}"
+  },
+  {
+    "id": "gupta2011",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "One-stage control over an adversarial channel with finite codelength",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Cédric Langbort",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Tamer Başar",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Cédric Langbort, Tamer Başar",
+    "venue": "Proc. 50th IEEE Conference on Decision and Control",
+    "pages": "4072–4078",
+    "year": 2011,
+    "bibtex": "@inproceedings{ gupta2011,\n\ttitle = \"{One-stage control over an adversarial channel with finite codelength}\",\n\tauthor = \"Abhishek Gupta and C{\\'e}dric Langbort and Tamer Ba\\c{s}ar\",\n\tbooktitle = \"Proc. 50th IEEE Conference on Decision and Control\",\n\tyear = \"2011\",\n\tpages={4072--4078},\n    month = \"December\"\n}"
+  },
+  {
+    "id": "gupta2010",
+    "type": "conference",
+    "type_label": "Conference Paper",
+    "title": "Optimal control in the presence of an intelligent jammer with limited actions",
+    "authors": [
+      {
+        "name": "Abhishek Gupta",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Cédric Langbort",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Tamer Başar",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Abhishek Gupta, Cédric Langbort, Tamer Başar",
+    "venue": "Proc. 49th IEEE Conference on Decision and Control",
+    "pages": "1096–1101",
+    "year": 2010,
+    "bibtex": "@inproceedings{ gupta2010,\n\tauthor = \"Abhishek Gupta and C{\\'e}dric Langbort and Tamer Ba\\c{s}ar\",\n\ttitle = \"Optimal control in the presence of an intelligent jammer with limited actions\",\n\tbooktitle = \"Proc. 49th IEEE Conference on Decision and Control\",\n\tyear = \"2010\",\n\tpages = \"1096--1101\",\n\tmonth = \"December\"\n}"
+  },
+  {
+    "id": "sarkar2008",
+    "type": "journal",
+    "type_label": "Journal Article",
+    "title": "PeV scale Left–Right symmetry and Baryon asymmetry of the Universe",
+    "authors": [
+      {
+        "name": "Anjishnu Sarkar",
+        "is_me": false,
+        "et_al": false
+      },
+      {
+        "name": "Abhishek",
+        "is_me": true,
+        "et_al": false
+      },
+      {
+        "name": "Urjit A Yajnik",
+        "is_me": false,
+        "et_al": false
+      }
+    ],
+    "authors_plain": "Anjishnu Sarkar, Abhishek, Urjit A Yajnik",
+    "venue": "Nuclear physics B",
+    "volume": "800",
+    "number": "1-2",
+    "pages": "253–269",
+    "year": 2008,
+    "publisher": "Elsevier",
+    "bibtex": "@article{sarkar2008,\n  title={PeV scale Left--Right symmetry and {B}aryon asymmetry of the Universe},\n  author={Sarkar, Anjishnu and Abhishek and Yajnik, Urjit A},\n  journal={Nuclear physics B},\n  volume={800},\n  number={1-2},\n  pages={253--269},\n  year={2008},\n  publisher={Elsevier}\n}"
+  }
+]

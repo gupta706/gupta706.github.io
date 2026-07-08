@@ -1,0 +1,16 @@
+# Research-interest tags shown as cards on the home page.
+# (The full write-ups live in the editable page: research.md)
+
+theory:
+  - Approximate Dynamic Programming
+  - Perturbation Theory for Dynamic Programs
+  - Reinforcement Learning
+  - Game Theory & Mechanism Design
+  - Applied Probability Theory
+
+applications:
+  - World Models & Physical AI
+  - Security of Cyberphysical Systems
+  - Transportation Markets
+  - Renewable Integration & Electricity Markets
+  - Energy Optimization

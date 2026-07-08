@@ -1,0 +1,43 @@
+---
+layout: default
+title: Teaching
+description: Courses taught by Abhishek Gupta at The Ohio State University, with full video lecture series.
+---
+<div class="page-head">
+  <div class="container">
+    <div class="kicker">Courses</div>
+    <h1>Teaching</h1>
+    <p class="lede">Graduate and undergraduate courses at Ohio State. Most come with a
+      complete set of video lectures on YouTube.</p>
+  </div>
+</div>
+
+<div class="container page-body">
+  {% for yr in site.data.courses %}
+  <div class="year-block">
+    <div class="year-title">{{ yr.year }}</div>
+    {% if yr.note %}<p class="year-note">{{ yr.note }}</p>{% endif %}
+    {% for c in yr.courses %}
+    <div class="course">
+      <div class="course-head">
+        <span class="course-code">{{ c.code }}</span>
+        <span class="course-title">{{ c.title }}</span>
+        <span class="course-term">{{ c.term }}</span>
+      </div>
+      {% if c.playlist %}
+      <details class="course-video">
+        <summary>▶ Watch the lecture series</summary>
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/videoseries?list={{ c.playlist }}"
+                  title="{{ c.code }} — {{ c.title }}" loading="lazy" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+        </div>
+        <p style="margin:0"><a href="https://www.youtube.com/playlist?list={{ c.playlist }}" rel="noopener">Open the full playlist on YouTube →</a></p>
+      </details>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</div>

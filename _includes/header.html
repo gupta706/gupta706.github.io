@@ -1,0 +1,53 @@
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="utilbar">
+  <div class="container utilbar-inner">
+    <span class="util-uni">The Ohio State University</span>
+    <span class="util-links">
+      <a href="{{ site.data.profile.university_url }}">osu.edu</a>
+      <span class="dot">·</span>
+      <a href="{{ site.data.profile.department_url }}">College of Engineering — ECE</a>
+    </span>
+  </div>
+</div>
+
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-mark">AG</span>
+      <span class="brand-text">
+        <b>{{ site.data.profile.name }}</b>
+        <span>{{ site.data.profile.title }} · ECE</span>
+      </span>
+    </a>
+
+    <nav class="main-nav" aria-label="Primary">
+      {% for item in site.data.navigation %}
+        <a href="{{ item.url | relative_url }}"
+           class="{% if page.url == item.url or item.url != '/' and page.url contains item.url %}active{% endif %}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" id="search-open" aria-label="Search" title="Search">
+        <svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M21 21l-4.3-4.3M11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
+      </button>
+      <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="currentColor" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="mobile-nav">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile" hidden>
+    {% for item in site.data.navigation %}
+      <a href="{{ item.url | relative_url }}"
+         class="{% if page.url == item.url or item.url != '/' and page.url contains item.url %}active{% endif %}">{{ item.title }}</a>
+    {% endfor %}
+  </nav>
+</header>
+
+{% include search.html %}

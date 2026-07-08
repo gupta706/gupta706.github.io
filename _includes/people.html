@@ -1,0 +1,18 @@
+<div class="people-grid">
+  {% for p in include.list %}
+  <div class="person">
+    {% if p.photo %}<img src="{{ p.photo | relative_url }}" alt="{{ p.name }}" loading="lazy">{% endif %}
+    <div class="person-info">
+      <h3>{{ p.name }}</h3>
+      {% if p.position %}<p class="pos">{{ p.position }}</p>{% endif %}
+      {% if p.thesis %}<p class="thesis"><b>Thesis:</b> {% if p.thesis.url %}<a href="{{ p.thesis.url }}" rel="noopener">{{ p.thesis.title }}</a>{% else %}{{ p.thesis.title }}{% endif %}</p>{% endif %}
+      {% if p.interests %}<p class="intr"><b>Interests:</b> {{ p.interests }}</p>{% endif %}
+      {% if p.extra %}<p class="intr">{{ p.extra }}</p>{% endif %}
+      <div class="person-links">
+        {% if p.email %}<a href="mailto:{{ p.email }}">Email</a>{% endif %}
+        {% for l in p.links %}<a href="{{ l.url }}" rel="noopener">{{ l.label }}</a>{% endfor %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

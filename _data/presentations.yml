@@ -1,0 +1,32 @@
+# ============================================================================
+#  PRESENTATIONS / TALKS  (newest first)
+#  For each talk:  title, venue, date, description (optional), and links.
+#  `slides` can be a local file under /presentations/ or any URL.
+#  `video` is an optional YouTube/Vimeo link. `type` is a small label.
+# ============================================================================
+
+- title: "Reinforcement Learning for General-State General-Action MDPs"
+  venue: "Research seminar"
+  date: 2023-04-01
+  type: "Talk"
+  description: >-
+    Consistency and sample-complexity results for reinforcement learning over
+    continuous state and action spaces.
+  slides: "/presentations/MDP_Presentation.html"
+
+- title: "Reinforcement Learning for General-State General-Action MDPs (short)"
+  venue: "Invited short talk"
+  date: 2023-03-01
+  type: "Talk"
+  description: "A condensed version of the general-state general-action RL talk."
+  slides: "/presentations/MDP_Short.html"
+
+- title: "Perturbation Theory for Constrained Optimal Control and Markov Decision Processes"
+  venue: "Control seminar"
+  date: 2022-10-01
+  type: "Talk"
+  description: >-
+    Warm-starting and efficiently re-solving perturbed constrained dynamic
+    programs.
+  slides: "/presentations/perturbation_dp.html"
+

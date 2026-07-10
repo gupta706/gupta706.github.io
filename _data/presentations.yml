@@ -5,6 +5,14 @@
 #  `video` is an optional YouTube/Vimeo link. `type` is a small label.
 # ============================================================================
 
+- title: "Good PhD Student - Bad PhD Student"
+  venue: "Advice"
+  date: 2026-07-10
+  type: "Talk"
+  description: "Tips and tricks for doing a good PhD."
+  slides: "/presentations/good_phd.html"
+
+
 - title: "Reinforcement Learning for General-State General-Action MDPs"
   venue: "Research seminar"
   date: 2023-04-01

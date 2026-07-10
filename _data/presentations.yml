@@ -5,6 +5,15 @@
 #  `video` is an optional YouTube/Vimeo link. `type` is a small label.
 # ============================================================================
 
+- title: "Writing Good Papers"
+  venue: "Advice"
+  date: 2026-07-10
+  type: "Talk"
+  description: "Tips and tricks for writing a good paper."
+  slides: "/presentations/good_paper.html"
+
+
+
 - title: "Good PhD Student - Bad PhD Student"
   venue: "Advice"
   date: 2026-07-10

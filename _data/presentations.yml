@@ -5,6 +5,21 @@
 #  `video` is an optional YouTube/Vimeo link. `type` is a small label.
 # ============================================================================
 
+- title: "Mathematics of Humanoid Robotics: Challenges and Future Research"
+  venue: "LinkedIn Learning"
+  date: 2026-07-15
+  type: "Presentation"
+  description: "Overview of the mathematics of humanoid robotics."
+  slides: "/presentations/modern_humanoid_robotics.html"
+
+- title: "Mathematics of Sim2Real - 10 Algorithms"
+  venue: "LinkedIn Learning"
+  date: 2026-07-21
+  type: "Presentation"
+  description: "Overview of 10 algorithms for Sim2Real."
+  slides: "/presentations/sim2real_gap.html"
+
+
 - title: "Writing Good Papers"
   venue: "Advice"
   date: 2026-07-10

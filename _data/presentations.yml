@@ -10,7 +10,7 @@
   date: 2026-07-15
   type: "Presentation"
   description: "Overview of the mathematics of humanoid robotics."
-  slides: "/presentations/modern_humanoid_robotics.html"
+  slides: "/presentations/modern_humanoid_methods.html"
 
 - title: "Mathematics of Sim2Real - 10 Algorithms"
   venue: "LinkedIn Learning"

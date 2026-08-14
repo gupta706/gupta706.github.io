@@ -3,109 +3,52 @@ layout: page
 title: Research
 kicker: What I work on
 lede: >-
-  My group studies the theory and applications of dynamic optimization and
-  reinforcement learning — and puts it to work in AI, security, energy, and
-  transportation.
+  My group studies the foundational theory of dynamic optimization, reinforcement
+  learning, and game theory. We leverage these theoretical breakthroughs to shape
+  the future of technology—optimizing autonomous systems, securing cyberphysical
+  infrastructure, and designing efficient markets for energy and transportation.
 ---
 
-# Theory
+# Theoretical Foundations
 
-## Approximate dynamic programming
+Expanding the boundaries of decision making and control theory.
 
-Major innovations in IoT let us capture rich datasets for real-time decision and
-control. Most hardware today runs rule-based control algorithms over data from
-rich sensors. We are transforming this paradigm by developing fast approximate
-dynamic programming algorithms for real-time decision making in
-information-rich environments. Toward this end, we have developed rollout
-algorithms for optimizing the fuel efficiency of autonomous vehicles and for
-building energy management.
+## Reinforcement Learning & Stochastic Control
 
-## Reinforcement learning
+![Reinforcement Learning & Stochastic Control]({{ '/assets/images/reinforcement_learning_theory.jpg' | relative_url }})
 
-In many high-dimensional stochastic optimal control problems — even with known
-models, noise statistics, and cost functions — value functions are very hard to
-compute because of continuous state and action spaces and state-dependent action
-sets. We developed a theory of empirical dynamic programming for such problems
-and a general framework for establishing consistency of the algorithm as sample
-size and the size of the function-approximating class grow. More recently, we
-derived a sample-complexity bound for offline reinforcement learning with an
-i.i.d. data-collection process and continuous state and action spaces.
+In complex, non-stationary environments, traditional control often falls short. We are pushing the theoretical limits of reinforcement learning (RL) and approximate dynamic programming. Our work on **offline reinforcement learning** establishes finite sample-complexity bounds for continuous state and action spaces. We have also pioneered the **probabilistic contraction analysis of iterated random operators** using Wasserstein divergence, providing a unified framework for the convergence of stochastic algorithms. These breakthroughs enable scalable, robust AI that can make safe decisions in high-dimensional stochastic optimal control problems.
 
-## Mechanism design and pricing algorithms
+## Game Theory & Multi-Agent Systems
 
-We are developing auction theory for single and multiple goods that are produced
-randomly but cannot be stored — renewable energy, time (idle time on cloud
-machines), and human attention. We are building a new theory of menu auctions
-for such settings, modeled as a Stackelberg game between consumers (followers)
-and producers (leaders), and using it to derive menus of items and the
-corresponding pricing algorithms.
+![Game Theory & Multi-Agent Systems]({{ '/assets/images/game_theory_agents.jpg' | relative_url }})
 
-## Game theory
+Many real-world systems are decentralized and involve multiple agents with asymmetric information. We develop computationally tractable solutions for multi-agent interactions. Our research characterizes the class of **polynomially solvable bimatrix games** using rank reduction and explores the existence of team-optimal strategies in stochastic teams. This theoretical foundation is crucial for coordinating agents in decentralized systems, from multi-robot navigation to communication link elimination in LQG teams.
 
-In bimatrix games, a long-standing open problem is to characterize the games
-solvable in polynomial time. Rank-0 and rank-1 games are solvable with linear
-programs, but rank-2 and higher games are PPAD-complete. We completely
-characterized a class of games that are strategically equivalent to rank-0 or
-rank-1 games, and consequently characterized the class of polynomially solvable
-games. We further proposed the notion of a best-response bijection and derived
-an algorithm to compute an approximate Nash equilibrium of general games using
-linear programs.
+## Mechanism Design & Pricing Algorithms
 
-## Applied probability theory for learning theory
+![Mechanism Design & Pricing Algorithms]({{ '/assets/images/mechanism_design_pricing.jpg' | relative_url }})
 
-Many algorithms in machine learning and reinforcement learning can be viewed as
-iterated random operators applied to an initial point in a Polish space. We have
-developed a unified framework to characterize the convergence and consistency of
-such algorithms by extending the theory of iterated random operators. Along the
-way we introduced the notion of a **Wasserstein divergence** between measures
-over Polish spaces, identified sufficient conditions under which contraction
-operators under this divergence have a limit, and substantially generalized the
-convergence properties of optimization algorithms to infinite-dimensional
-settings.
+As resources become more stochastic—such as renewable energy generation or idle cloud computing time—traditional pricing models fail. We are developing novel auction theory for single and multiple goods that are produced randomly and cannot be stored. By modeling these as Stackelberg games, we design menus of items and dynamic pricing algorithms that elicit truthful bidding and ensure fair resource allocation.
 
-# Applications
+# Transforming the Future of Technology
 
-## Security of cyberphysical systems
+Applying mathematical theory to solve high-impact, real-world challenges.
 
-Cyberphysical systems couple networked computers with physical systems —
-autonomous vehicles, drones, advanced manufacturing, and more. Because they
-acquire so much information from their environment, they are susceptible to
-remote attacks. We use the statistical theory of change detection to derive new
-algorithms for attack detection, including a dynamic watermarking algorithm for
-finite Markov decision problems.
+## Cyberphysical Security
 
-## Transportation markets
+![Cyberphysical Security and Smart Grids]({{ '/assets/images/cyberphysical_security_grid.jpg' | relative_url }})
 
-Transportation is growing through shared mobility, connectivity, and
-electrification, but the industry is fragmented. We identify the best business
-models and pricing mechanisms for delivering seamless service to passengers. We
-have proposed frameworks for fair pricing in ridehailing systems and for
-designing multimodal transportation systems, and we are actively working on
-scheduling electric-vehicle charging with renewable energy and on pricing for
-battery-swapping.
+Cyberphysical systems—from advanced manufacturing to the power grid—rely on networked sensors, making them vulnerable to remote attacks. We utilize the statistical theory of change detection and dynamic games to secure these systems. By developing **dynamic watermarking algorithms for finite Markov decision problems** and modeling defense strategies as **Colonel Blotto games**, we design Nash equilibrium control policies that protect networks (like CAN bus networks in vehicles) against intelligent adversaries.
 
-## Electricity markets
+## Intelligent Transportation & Autonomous Vehicles
 
-We design market mechanisms that let generators and load-serving entities bid
-profitably and mitigate risk under deep renewable integration.
+![AI and Autonomous Systems]({{ '/assets/images/autonomous_systems_network.jpg' | relative_url }})
+
+Transportation is undergoing a massive shift towards shared mobility, connectivity, and electrification. We apply deep reinforcement learning and approximate dynamic programming to **eco-driving in connected and automated hybrid electric vehicles**, exploiting vehicle-to-everything (V2X) data to optimize fuel consumption and velocity profiles. At the macro level, we design fair pricing mechanisms and multi-objective fleet sizing algorithms for ridehailing and multi-modal transportation networks, paving the way for sustainable and congestion-free mobility.
+
+## Next-Generation Energy Grids
 
 ![Electricity market under deep renewable integration]({{ '/assets/images/electricity_market_dakhil.png' | relative_url }})
 
-Renewable energy is a clean, economical alternative to traditional generation,
-but integrating it into the existing grid introduces new challenges. Existing
-markets are designed for dispatchable fossil and nuclear generation and can
-absorb small amounts of renewables — but when random renewable sources supply a
-substantial share of demand, the market structure must change to keep the grid
-reliable. Our research designs innovative market mechanisms that account for the
-stochastic nature of renewable generation and mitigate the high imbalance costs
-that come with deeper integration. Using stochastic programming and auction
-theory, a generator can compensate any shortfall in generation and still make a
-positive payoff: the optimal contracted amount turns out to be a function of the
-inverse CDF of the renewable energy, and this allocation together with a
-Myerson payment rule elicits truthful bidding from buyers.
-
-## Energy optimization of connected autonomous vehicles
-
-We design reinforcement-learning methods for optimizing the fuel consumption of
-autonomous vehicles, exploiting V2V and V2I information to compute the
-best velocity profile.
+Integrating intermittent renewable energy into the traditional power grid introduces high imbalance costs. Our research designs innovative market mechanisms that accommodate deep renewable integration. Using stochastic programming and auction theory, we have developed models where generators can sell renewable energy with a **penalty for shortfall**, ensuring the grid remains reliable while keeping bidding truthful and profitable. Furthermore, we develop preemptive scheduling algorithms for electric vehicle (EV) charging to provide robust demand response services.

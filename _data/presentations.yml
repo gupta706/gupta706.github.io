@@ -5,6 +5,15 @@
 #  `video` is an optional YouTube/Vimeo link. `type` is a small label.
 # ============================================================================
 
+
+- title: "ECE Graduate Student Orientation"
+  venue: "ECE Department at OSU"
+  date: 2026-08-21
+  type: "Presentation"
+  description: "Overview of ECE department at OSU and our graduate program."
+  slides: "/presentations/ece_graduate_orientation.html"
+
+
 - title: "Mathematics of Humanoid Robotics: Challenges and Future Research"
   venue: "LinkedIn Learning"
   date: 2026-07-15
@@ -39,7 +48,7 @@
 
 - title: "Reinforcement Learning for General-State General-Action MDPs"
   venue: "Research seminar"
-  date: 2023-04-01
+  date: 2026-04-21
   type: "Talk"
   description: >-
     Consistency and sample-complexity results for reinforcement learning over
@@ -48,14 +57,14 @@
 
 - title: "Reinforcement Learning for General-State General-Action MDPs (short)"
   venue: "Invited short talk"
-  date: 2023-03-01
+  date: 2026-03-01
   type: "Talk"
   description: "A condensed version of the general-state general-action RL talk."
   slides: "/presentations/MDP_Short.html"
 
 - title: "Perturbation Theory for Constrained Optimal Control and Markov Decision Processes"
   venue: "Control seminar"
-  date: 2022-10-01
+  date: 2024-10-01
   type: "Talk"
   description: >-
     Warm-starting and efficiently re-solving perturbed constrained dynamic

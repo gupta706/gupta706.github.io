@@ -9,9 +9,9 @@ current_note: "I am not accepting new students at this time."
 
 current:
   - name: "Wafeeq Jaleel"
-    photo: "/assets/images/wafeeq.jpeg"
+    photo: "/assets/images/wafeeq.png"
     email: "jaleel.5@buckeyemail.osu.edu"
-    interests: "Optimization, reinforcement learning"
+    interests: "Optimization, system identification, reinforcement learning, automotive systems"
 
 former_phd:
   - name: "Hao Chen"

@@ -53,7 +53,7 @@
   description: >-
     Consistency and sample-complexity results for reinforcement learning over
     continuous state and action spaces.
-  slides: "/presentations/MDP_Presentation.html"
+  slides: "/presentations/GeneralMDP.html"
 
 - title: "Reinforcement Learning for General-State General-Action MDPs (short)"
   venue: "Invited short talk"

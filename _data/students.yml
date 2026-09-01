@@ -13,15 +13,26 @@ current:
     email: "jaleel.5@buckeyemail.osu.edu"
     interests: "Optimization, system identification, reinforcement learning, automotive systems"
 
+  - name: "Allia Zhou"
+    photo: "/assets/images/allia.jpg"
+    email: "zhou.5112@buckeyemail.osu.edu"
+    interests: "Robotics, Control, and Reinforcement Learning"
+
 former_phd:
   - name: "Hao Chen"
     photo: "/assets/images/hc.jpeg"
     email: "chen.6945@buckeyemail.osu.edu"
+    thesis:
+      title: "Detection, Adaptation, and Optimization of Time-Varying Stochastic Systems"
+      url: "https://www.proquest.com/docview/3268105815?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses"
     interests: "Optimization, Markov chains, reinforcement learning"
 
   - name: "Arti Vedula"
     photo: "/assets/images/arti.jpeg"
     email: "vedula.9@buckeyemail.osu.edu"
+    thesis:
+      title: "Scalability, Security and Decentralization of Graph Networks"
+      url:"https://www.proquest.com/docview/3272281217?pq-origsite=gscholar&fromopenview=true"
     interests: "Blockchain, fairness, computer vision, optimization"
 
   - name: "Jianzong Pi"

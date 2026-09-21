@@ -6,6 +6,15 @@
 # ============================================================================
 
 
+- title: "More Data or More Sensors? What Time-Series Foundation Models Can and Cannot Learn"
+  venue: "GE Vernova AI Edge Symposium"
+  date: 2026-09-30
+  type: "Presentation"
+  description: "Fundamental limitation of timeseries foundation models"
+  slides: "/presentations/tsfm.html"
+
+
+
 - title: "ECE Graduate Student Orientation"
   venue: "ECE Department at OSU"
   date: 2026-08-21

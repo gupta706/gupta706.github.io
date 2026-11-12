@@ -777,6 +777,83 @@ line-height: 1.25;
 .reveal #faculty-entrepreneurship .askcard img {
 height: 290px;
 }
+
+.reveal .tl {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 0;
+margin: 0.35em 0 0.15em;
+}
+.reveal .tl-step {
+position: relative;
+padding: 1.55em 0.85em 0.15em 0;
+}
+.reveal .tl-step::before {
+content: "";
+position: absolute;
+top: 0.42em;
+left: 0;
+right: 0;
+height: 3px;
+background: #E7C9D0;
+}
+.reveal .tl-step:first-child::before {
+left: 7px;
+}
+.reveal .tl-step:last-child::before {
+right: calc(100% - 18px);
+}
+.reveal .tl-step::after {
+content: "";
+position: absolute;
+top: 0.22em;
+left: 0;
+width: 14px;
+height: 14px;
+border-radius: 50%;
+background: #fff;
+border: 4px solid var(--scarlet);
+z-index: 1;
+}
+.reveal .tl-step p {
+margin: 0 0 0.28em;
+}
+.reveal .tl-when {
+display: block;
+font-weight: 700;
+font-size: 0.68em;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: var(--scarlet);
+}
+.reveal .tl-where {
+display: block;
+margin-top: 0.12em;
+font-weight: 700;
+font-size: 1.02em;
+line-height: 1.2;
+color: var(--gray);
+}
+.reveal .tl-step p:last-child {
+margin: 0.35em 0 0;
+font-size: 0.72em;
+line-height: 1.32;
+color: var(--gray);
+}
+.reveal .tl-bens {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 0.8em;
+margin-top: 0.85em;
+}
+.reveal .tl-bens p {
+margin: 0;
+font-size: 0.74em;
+line-height: 1.35;
+}
+.reveal .tl-bens .rolebox.alt .rb-head {
+color: var(--gray);
+}
 .reveal .split3 {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
@@ -994,6 +1071,9 @@ margin: 0.2em 0 0;
 margin-bottom: 0.28em;
 }
 
+.reveal .reqnote {
+text-align: center;
+}
 .reveal .slides section.reqfit h3 {
 font-size: 0.88em;
 margin-top: 0.28em;
@@ -1674,27 +1754,6 @@ Prof. Abhishek Gupta — Chair, Graduate Studies
 </tbody>
 </table>
 </section>
-<section id="centers-laboratories" class="slide level2 labfit">
-<h2>Centers &amp; laboratories</h2>
-<div class="columns">
-<div class="column" style="width:48%;">
-<ul>
-<li>Autonomous Systems Perception, Intelligence, and Navigation Laboratory (ASPIN)</li>
-<li>Center for High Performance Power Electronics (CHPPE)</li>
-<li>Circuit Laboratory for Advanced Sensors and Systems (CLASS)</li>
-<li>ElectroScience Laboratory</li>
-<li>Institute for Materials Research</li>
-</ul>
-</div><div class="column" style="width:48%;">
-<ul>
-<li>Semiconductor Epitaxy and Analysis Laboratory (SEAL)</li>
-<li>Solid State Electronics and Photonics Area (SSEP)</li>
-<li>Institute for Cybersecurity and Digital Trust (ICDT)</li>
-<li>Krishna Infrared Detector Laboratory (KIND)</li>
-<li>Center for Automated Vehicles Research with Multimodal Assured Navigation (CARMEN)</li>
-</ul>
-</div></div>
-</section>
 <section>
 <section id="ms-and-phd-programs-and-certifications" class="title-slide slide level1 center" data-background-color="#BA0C2F">
 <h1>MS and PhD Programs and Certifications</h1>
@@ -1715,7 +1774,7 @@ Prof. Abhishek Gupta — Chair, Graduate Studies
 <div class="split2">
 <div class="rolebox">
 <div class="rb-head">
-<p>PhD Program</p>
+<p>PhD Program (~5 years)</p>
 </div>
 <ul>
 <li><strong>Goal:</strong> Conduct intensive and prolonged research on a specialized topic, leading to <strong>archival publication</strong> and <strong>scientific or engineering breakthroughs</strong></li>
@@ -1725,7 +1784,7 @@ Prof. Abhishek Gupta — Chair, Graduate Studies
 </div>
 <div class="rolebox alt">
 <div class="rb-head">
-<p>MS Program</p>
+<p>MS Program (~3-4 semesters)</p>
 </div>
 <ul>
 <li><strong>Goal:</strong> Develop expertise in a specialized field of ECE</li>
@@ -1822,6 +1881,10 @@ Prof. Abhishek Gupta — Chair, Graduate Studies
 </tbody>
 </table>
 </div>
+<p><br></p>
+<div class="reqnote">
+<p>PhD after MS needs 50 credits, MS with thesis is done under a faculty</p>
+</div>
 </section>
 <section id="new-minors-and-certifications" class="slide level2">
 <h2>New Minors and Certifications</h2>
@@ -1884,6 +1947,37 @@ Sources · U.S. News national rank, Ohio State announcements
 <p>
 <a href="https://engineering.osu.edu/news/2026/04/graduate-program-ranks-14th-among-publics" target="_blank">2027 · engineering.osu.edu/news/2026/04/graduate-program-ranks-14th-among-publics</a>
 </p>
+</div>
+</div>
+</section>
+<section id="iitbosu-cotutelle-joint-phd-program" class="slide level2">
+<h2>IITB–OSU Cotutelle (joint PhD) program</h2>
+<div class="tl">
+<div class="tl-step">
+<p><span class="tl-when">Years 1–2</span> <span class="tl-where">IIT Bombay</span> Coursework and the qualifying exam. IITB pays the stipend.</p>
+</div>
+<div class="tl-step">
+<p><span class="tl-when">Year 2</span> <span class="tl-where">The match</span> An OSU advisor selects the student, who applies through the regular process.</p>
+</div>
+<div class="tl-step">
+<p><span class="tl-when">Years 3–5</span> <span class="tl-where">Ohio State</span> 1–2 years on the joint project in Columbus. The OSU co-advisor pays the GRA only then.</p>
+</div>
+<div class="tl-step">
+<p><span class="tl-when">Graduation</span> <span class="tl-where">Two Ph.D. degrees</span> A joint committee of three faculty from each university.</p>
+</div>
+</div>
+<div class="tl-bens">
+<div class="rolebox">
+<div class="rb-head">
+<p>OSU faculty</p>
+</div>
+<p>Fund 1–2 years instead of five. The student arrives trained, already on your project, and you advise the OSU degree to completion.</p>
+</div>
+<div class="rolebox alt">
+<div class="rb-head">
+<p>IITB faculty</p>
+</div>
+<p>Your student stays enrolled at IITB the whole way. You co-advise the Columbus years, which OSU funds, and share the papers.</p>
 </div>
 </div>
 </section></section>
